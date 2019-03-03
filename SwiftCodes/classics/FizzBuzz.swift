@@ -1,4 +1,5 @@
 import Foundation
+import SwiftDS
 
 class FizzBuzz {
     func doFizzBuzz(number: Int) -> Array<String> {

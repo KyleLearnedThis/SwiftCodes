@@ -26,6 +26,27 @@
 			remoteGlobalIDString = DE900550222B8E5600458081;
 			remoteInfo = SwiftCodes;
 		};
+		DE900589222B93D200458081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE900584222B93D200458081 /* SwiftDS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEA1E1F2222349C700835262;
+			remoteInfo = SwiftDS;
+		};
+		DE90058B222B93D200458081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE900584222B93D200458081 /* SwiftDS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEA1E1FB222349C700835262;
+			remoteInfo = SwiftDSTests;
+		};
+		DE90058D222B941100458081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE900584222B93D200458081 /* SwiftDS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA1E1F1222349C700835262;
+			remoteInfo = SwiftDS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +60,7 @@
 		DE900575222B8F9000458081 /* AirportRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportRoute.swift; sourceTree = "<group>"; };
 		DE90057C222B8FE200458081 /* FizzBuzzTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTest.swift; sourceTree = "<group>"; };
 		DE900582222B906500458081 /* AirportRouteTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportRouteTest.swift; sourceTree = "<group>"; };
+		DE900584222B93D200458081 /* SwiftDS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDS.xcodeproj; path = ../SwiftDS/SwiftDS.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,7 @@
 		DE900547222B8E5600458081 = {
 			isa = PBXGroup;
 			children = (
+				DE900584222B93D200458081 /* SwiftDS.xcodeproj */,
 				DE900553222B8E5600458081 /* SwiftCodes */,
 				DE90055E222B8E5600458081 /* SwiftCodesTests */,
 				DE900552222B8E5600458081 /* Products */,
@@ -116,6 +139,15 @@
 			path = classics;
 			sourceTree = "<group>";
 		};
+		DE900585222B93D200458081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE90058A222B93D200458081 /* SwiftDS.framework */,
+				DE90058C222B93D200458081 /* SwiftDSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -142,6 +174,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DE90058E222B941100458081 /* PBXTargetDependency */,
 			);
 			name = SwiftCodes;
 			productName = SwiftCodes;
@@ -195,6 +228,12 @@
 			mainGroup = DE900547222B8E5600458081;
 			productRefGroup = DE900552222B8E5600458081 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DE900585222B93D200458081 /* Products */;
+					ProjectRef = DE900584222B93D200458081 /* SwiftDS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DE900550222B8E5600458081 /* SwiftCodes */,
@@ -202,6 +241,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DE90058A222B93D200458081 /* SwiftDS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftDS.framework;
+			remoteRef = DE900589222B93D200458081 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE90058C222B93D200458081 /* SwiftDSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftDSTests.xctest;
+			remoteRef = DE90058B222B93D200458081 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DE90054F222B8E5600458081 /* Resources */ = {
@@ -249,6 +305,11 @@
 			isa = PBXTargetDependency;
 			target = DE900550222B8E5600458081 /* SwiftCodes */;
 			targetProxy = DE90055C222B8E5600458081 /* PBXContainerItemProxy */;
+		};
+		DE90058E222B941100458081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDS;
+			targetProxy = DE90058D222B941100458081 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

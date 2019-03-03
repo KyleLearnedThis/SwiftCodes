@@ -1,0 +1,3 @@
+[submodule "SwiftDS"]
+	path = SwiftDS
+	url = https://github.com/KyleLearnedThis/SwiftDS.git
