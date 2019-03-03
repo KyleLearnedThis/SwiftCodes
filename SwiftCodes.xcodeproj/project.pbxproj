@@ -140,7 +140,6 @@
 		DE90056D222B8EB200458081 /* classics */ = {
 			isa = PBXGroup;
 			children = (
-				DE900594222BA93600458081 /* FibonacciTest.swift */,
 				DE900582222B906500458081 /* AirportRouteTest.swift */,
 				DE90057C222B8FE200458081 /* FizzBuzzTest.swift */,
 			);
@@ -168,6 +167,7 @@
 		DE900593222BA8F600458081 /* dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				DE900594222BA93600458081 /* FibonacciTest.swift */,
 			);
 			path = dynamic;
 			sourceTree = "<group>";
