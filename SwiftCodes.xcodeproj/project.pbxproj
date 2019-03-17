@@ -22,6 +22,9 @@
 		DE900591222BA8E500458081 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE900590222BA8E500458081 /* Fibonacci.swift */; };
 		DE900592222BA8E500458081 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE900590222BA8E500458081 /* Fibonacci.swift */; };
 		DE900595222BA93600458081 /* FibonacciTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE900594222BA93600458081 /* FibonacciTest.swift */; };
+		DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
+		DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
+		DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,8 @@
 		DE900584222B93D200458081 /* SwiftDS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDS.xcodeproj; path = ../SwiftDS/SwiftDS.xcodeproj; sourceTree = "<group>"; };
 		DE900590222BA8E500458081 /* Fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		DE900594222BA93600458081 /* FibonacciTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FibonacciTest.swift; path = SwiftCodesTests/dynamic/FibonacciTest.swift; sourceTree = SOURCE_ROOT; };
+		DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTree.swift; sourceTree = "<group>"; };
+		DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTreeTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				DE007958223E09D100E7ACAA /* AllPaths.swift */,
+				DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */,
+				DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -331,6 +338,7 @@
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
+				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
 				DE900583222B906500458081 /* AirportRouteTest.swift in Sources */,
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
@@ -347,6 +356,7 @@
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
 				DE90057D222B8FE200458081 /* FizzBuzzTest.swift in Sources */,
 				DE900595222BA93600458081 /* FibonacciTest.swift in Sources */,
+				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
