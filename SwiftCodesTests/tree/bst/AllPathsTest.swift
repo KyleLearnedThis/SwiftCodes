@@ -18,5 +18,5 @@ class AllPathsTest: XCTestCase {
         let allPaths = AllPaths()
         _ = allPaths.binaryTreePaths(root: root)
     }
-
+    
 }
