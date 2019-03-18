@@ -25,6 +25,9 @@
 		DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
 		DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
 		DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */; };
+		DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */; };
+		DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */; };
+		DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,8 @@
 		DE900594222BA93600458081 /* FibonacciTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FibonacciTest.swift; path = SwiftCodesTests/dynamic/FibonacciTest.swift; sourceTree = SOURCE_ROOT; };
 		DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTree.swift; sourceTree = "<group>"; };
 		DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTreeTest.swift; sourceTree = "<group>"; };
+		DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMaxHeight.swift; sourceTree = "<group>"; };
+		DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMaxHeightTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				DE007958223E09D100E7ACAA /* AllPaths.swift */,
+				DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */,
 				DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */,
 			);
 			path = tree;
@@ -110,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */,
+				DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */,
 				DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */,
 			);
 			path = tree;
@@ -338,6 +345,7 @@
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
+				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
 			);
@@ -356,6 +364,8 @@
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
 				DE90057D222B8FE200458081 /* FizzBuzzTest.swift in Sources */,
 				DE900595222BA93600458081 /* FibonacciTest.swift in Sources */,
+				DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
+				DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
 			);
