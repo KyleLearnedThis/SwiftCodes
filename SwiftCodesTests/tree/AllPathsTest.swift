@@ -11,11 +11,12 @@ import SwiftDS
 class AllPathsTest: XCTestCase {
 
     func testAllPathsBasic() {
-        let input = [15, 6, 18, 3, 7, 17, 20, 2, 4, 13, 9]
-        let bst = BinarySearchTree<Int>(input: input)
-        BinaryTreePrinter.printNode(root: bst.getRoot()!)
+        let input = [1,2,3,4,5,6,7,8,9,10,11]
+        let tree = HeightBalancedTree()
+        let root = tree.sortedArrayToBST(nums: input)
+        BinaryTreePrinter.printNode(root: root!)
         let allPaths = AllPaths()
-        let result = allPaths.binaryTreePaths(root: bst.getRoot())
+        _ = allPaths.binaryTreePaths(root: root)
     }
 
 }
