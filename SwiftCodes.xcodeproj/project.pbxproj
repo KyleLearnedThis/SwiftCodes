@@ -28,6 +28,9 @@
 		DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */; };
 		DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */; };
 		DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */; };
+		DEFCBBE4223F5FF600CBBAC6 /* BSTInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBE3223F5FF600CBBAC6 /* BSTInversion.swift */; };
+		DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBE3223F5FF600CBBAC6 /* BSTInversion.swift */; };
+		DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBE9223F623400CBBAC6 /* BSTInversionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +66,7 @@
 
 /* Begin PBXFileReference section */
 		DE007958223E09D100E7ACAA /* AllPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPaths.swift; sourceTree = "<group>"; };
-		DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllPathsTest.swift; path = SwiftCodesTests/tree/AllPathsTest.swift; sourceTree = SOURCE_ROOT; };
+		DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllPathsTest.swift; path = SwiftCodesTests/tree/bst/AllPathsTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE900554222B8E5600458081 /* SwiftCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCodes.h; sourceTree = "<group>"; };
 		DE900555222B8E5600458081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTreeTest.swift; sourceTree = "<group>"; };
 		DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMaxHeight.swift; sourceTree = "<group>"; };
 		DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMaxHeightTest.swift; sourceTree = "<group>"; };
+		DEFCBBE3223F5FF600CBBAC6 /* BSTInversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTInversion.swift; sourceTree = "<group>"; };
+		DEFCBBE9223F623400CBBAC6 /* BSTInversionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTInversionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +110,7 @@
 		DE007956223E09B000E7ACAA /* tree */ = {
 			isa = PBXGroup;
 			children = (
-				DE007958223E09D100E7ACAA /* AllPaths.swift */,
-				DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */,
-				DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */,
+				DEFCBBE6223F600200CBBAC6 /* bst */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -115,9 +118,7 @@
 		DE00795B223E0A0600E7ACAA /* tree */ = {
 			isa = PBXGroup;
 			children = (
-				DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */,
-				DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */,
-				DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */,
+				DEFCBBE8223F601600CBBAC6 /* bst */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -207,6 +208,28 @@
 				DE900594222BA93600458081 /* FibonacciTest.swift */,
 			);
 			path = dynamic;
+			sourceTree = "<group>";
+		};
+		DEFCBBE6223F600200CBBAC6 /* bst */ = {
+			isa = PBXGroup;
+			children = (
+				DE007958223E09D100E7ACAA /* AllPaths.swift */,
+				DEFCBBE3223F5FF600CBBAC6 /* BSTInversion.swift */,
+				DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */,
+				DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */,
+			);
+			path = bst;
+			sourceTree = "<group>";
+		};
+		DEFCBBE8223F601600CBBAC6 /* bst */ = {
+			isa = PBXGroup;
+			children = (
+				DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */,
+				DEFCBBE9223F623400CBBAC6 /* BSTInversionTest.swift */,
+				DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */,
+				DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */,
+			);
+			path = bst;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +368,7 @@
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
+				DEFCBBE4223F5FF600CBBAC6 /* BSTInversion.swift in Sources */,
 				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
@@ -358,6 +382,8 @@
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
 				DE900583222B906500458081 /* AirportRouteTest.swift in Sources */,
+				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
+				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
