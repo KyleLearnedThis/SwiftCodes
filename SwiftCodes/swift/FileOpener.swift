@@ -8,18 +8,51 @@
 import Foundation
 
 public class FileOpener {
-
-    public func openFile() {
-
+    public func openHomeFile(inputDirectory: String, fileName: String) -> String {
+        var input = ""
+        var x = fileName.components(separatedBy: ".")
         let home = FileManager.default.homeDirectoryForCurrentUser
-        let inputDirectory = "dev/iOS/SwiftCodes/SwiftCodesTests/swift/resources/"
-        let url = home.appendingPathComponent(inputDirectory).appendingPathComponent("test02").appendingPathExtension("txt")
-
+        let url = home.appendingPathComponent(inputDirectory)
+            .appendingPathComponent(x[0])
+            .appendingPathExtension(x[1])
         do {
-            let input = try String(contentsOf: url, encoding: .utf8)
+            input = try String(contentsOf: url, encoding: .utf8)
             print("===== input: \(input)=====")
         } catch {
-            print("failed")
+            print("open file: \(fileName) failed")
+        }
+        return input
+    }
+
+    public func parseGraphJsonFile(inputDirectory: String, fileName: String) {
+        let inputString = openHomeFile(inputDirectory: inputDirectory, fileName: fileName)
+        let data = inputString.data(using: String.Encoding.utf8)!
+        let json = try? JSONSerialization.jsonObject(with: data, options: [])
+
+        if let dict1 = json as? [String: Any] {
+            if let vertexArray = dict1["graph"] as? [Any] {
+                for vertex in vertexArray {
+                    if let dict2 = vertex as? [String: Any] {
+                        let vertexValue = dict2["vertex"]
+                        if let dict3 = vertexValue as? [String: Any] {
+                            let vertexId = dict3["id"]!
+                            print("======== id: \(vertexId) ========")
+                            if let edgeArray = dict3["edge"] as? [Any] {
+                                for edge in edgeArray {
+                                    if let edgeValue = edge as? [String: String] {
+                                        let edgeId = edgeValue["id"]!
+                                        let edgeWeight = edgeValue["weight"]!
+                                        let edgeDirection = edgeValue["direction"]!
+                                        print("========== eId: \(edgeId) ==========")
+                                        print("========== eWeight: \(edgeWeight) ==========")
+                                        print("========== eDirection: \(edgeDirection) ==========")
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
