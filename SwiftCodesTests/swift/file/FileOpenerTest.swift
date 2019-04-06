@@ -10,15 +10,15 @@ import XCTest
 class FileOpenerTest: XCTestCase {
 
     func testBasic() {
-        let dir = "dev/iOS/SwiftCodes/SwiftCodesTests/swift/resources/"
+        let dir = "dev/iOS/SwiftCodes/SwiftCodesTests/swift/file/resources/"
         let fileName = "test02.txt"
         let x = FileOpener()
         _ = x.openHomeFile(inputDirectory: dir, fileName: fileName)
     }
 
     func testOpenFileAsJson() {
-        let dir = "dev/iOS/SwiftCodes/SwiftCodesTests/swift/resources/"
-        let fileName = "test05.json"
+        let dir = "dev/iOS/SwiftCodes/SwiftCodesTests/swift/file/resources/"
+        let fileName = "test04.json"
         let x = FileOpener()
         x.parseGraphJsonFile(inputDirectory: dir, fileName: fileName)
     }
