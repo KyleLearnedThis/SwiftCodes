@@ -25,6 +25,9 @@
 		DE900591222BA8E500458081 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE900590222BA8E500458081 /* Fibonacci.swift */; };
 		DE900592222BA8E500458081 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE900590222BA8E500458081 /* Fibonacci.swift */; };
 		DE900595222BA93600458081 /* FibonacciTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE900594222BA93600458081 /* FibonacciTest.swift */; };
+		DEA79A082296497500468823 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA79A072296497500468823 /* SingleNumber.swift */; };
+		DEA79A092296497500468823 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA79A072296497500468823 /* SingleNumber.swift */; };
+		DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA79A0A229649B400468823 /* SingleNumberTest.swift */; };
 		DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
 		DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
 		DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */; };
@@ -94,6 +97,8 @@
 		DE900584222B93D200458081 /* SwiftDS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDS.xcodeproj; path = ../SwiftDS/SwiftDS.xcodeproj; sourceTree = "<group>"; };
 		DE900590222BA8E500458081 /* Fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		DE900594222BA93600458081 /* FibonacciTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FibonacciTest.swift; path = SwiftCodesTests/dynamic/FibonacciTest.swift; sourceTree = SOURCE_ROOT; };
+		DEA79A072296497500468823 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		DEA79A0A229649B400468823 /* SingleNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumberTest.swift; sourceTree = "<group>"; };
 		DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTree.swift; sourceTree = "<group>"; };
 		DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTreeTest.swift; sourceTree = "<group>"; };
 		DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMaxHeight.swift; sourceTree = "<group>"; };
@@ -203,6 +208,7 @@
 				DE90056C222B8EA900458081 /* classics */,
 				DE90058F222BA8E500458081 /* dynamic */,
 				DEFCBBFB2241A22300CBBAC6 /* swift */,
+				DEA79A042296493600468823 /* numbers */,
 				DE007956223E09B000E7ACAA /* tree */,
 				DE900554222B8E5600458081 /* SwiftCodes.h */,
 				DE900555222B8E5600458081 /* Info.plist */,
@@ -215,6 +221,7 @@
 			children = (
 				DE90056D222B8EB200458081 /* classics */,
 				DE900593222BA8F600458081 /* dynamic */,
+				DEA79A062296493E00468823 /* numbers */,
 				DEFCBBFF2241A3B400CBBAC6 /* swift */,
 				DE00795B223E0A0600E7ACAA /* tree */,
 				DE90055F222B8E5600458081 /* SwiftCodesTests.swift */,
@@ -264,6 +271,22 @@
 				DE900594222BA93600458081 /* FibonacciTest.swift */,
 			);
 			path = dynamic;
+			sourceTree = "<group>";
+		};
+		DEA79A042296493600468823 /* numbers */ = {
+			isa = PBXGroup;
+			children = (
+				DEA79A072296497500468823 /* SingleNumber.swift */,
+			);
+			path = numbers;
+			sourceTree = "<group>";
+		};
+		DEA79A062296493E00468823 /* numbers */ = {
+			isa = PBXGroup;
+			children = (
+				DEA79A0A229649B400468823 /* SingleNumberTest.swift */,
+			);
+			path = numbers;
 			sourceTree = "<group>";
 		};
 		DEFCBBE6223F600200CBBAC6 /* bst */ = {
@@ -462,6 +485,7 @@
 			files = (
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
+				DEA79A082296497500468823 /* SingleNumber.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DEFCBBE4223F5FF600CBBAC6 /* BSTInversion.swift in Sources */,
 				DEFCBBFE2241A25A00CBBAC6 /* FileOpener.swift in Sources */,
@@ -480,6 +504,7 @@
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
 				DE900583222B906500458081 /* AirportRouteTest.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
+				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
 				DEFCBC022241A44800CBBAC6 /* FileOpener.swift in Sources */,
 				DE3BC6D6225886EC00867EED /* Regex.swift in Sources */,
 				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
@@ -488,6 +513,7 @@
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DEFCBC012241A3DF00CBBAC6 /* FileOpenerTest.swift in Sources */,
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
+				DEA79A092296497500468823 /* SingleNumber.swift in Sources */,
 				DE90057D222B8FE200458081 /* FizzBuzzTest.swift in Sources */,
 				DE900595222BA93600458081 /* FibonacciTest.swift in Sources */,
 				DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
