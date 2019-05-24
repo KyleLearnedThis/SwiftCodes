@@ -10,6 +10,9 @@
 		DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE007958223E09D100E7ACAA /* AllPaths.swift */; };
 		DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE007958223E09D100E7ACAA /* AllPaths.swift */; };
 		DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */; };
+		DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D7622979E9900578BB1 /* DailyTemperatures.swift */; };
+		DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D7622979E9900578BB1 /* DailyTemperatures.swift */; };
+		DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -85,6 +88,8 @@
 /* Begin PBXFileReference section */
 		DE007958223E09D100E7ACAA /* AllPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPaths.swift; sourceTree = "<group>"; };
 		DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllPathsTest.swift; path = SwiftCodesTests/tree/bst/AllPathsTest.swift; sourceTree = SOURCE_ROOT; };
+		DE014D7622979E9900578BB1 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
+		DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperaturesTest.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -284,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				DEA79A072296497500468823 /* SingleNumber.swift */,
+				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DEA79A0A229649B400468823 /* SingleNumberTest.swift */,
 			);
 			path = numbers;
@@ -516,6 +523,7 @@
 				DE3BC6D5225886EC00867EED /* Regex.swift in Sources */,
 				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
+				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +543,7 @@
 				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
+				DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */,
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DEFCBC012241A3DF00CBBAC6 /* FileOpenerTest.swift in Sources */,
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
@@ -546,6 +555,7 @@
 				DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */,
 				DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
+				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
