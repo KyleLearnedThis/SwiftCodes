@@ -9,9 +9,27 @@ import XCTest
 
 class ValidParenthesesTest: XCTestCase {
 
-    func testBasic() {
+    func test01() {
         let expected = true
         let actual = ValidParentheses.isValid("(())")
+        XCTAssertEqual(expected, actual)
+    }
+
+    func test02() {
+        let expected = true
+        let actual = ValidParentheses.isValid("(()())")
+        XCTAssertEqual(expected, actual)
+    }
+
+    func test03() {
+        let expected = false
+        let actual = ValidParentheses.isValid("((((")
+        XCTAssertEqual(expected, actual)
+    }
+
+    func test04() {
+        let expected = false
+        let actual = ValidParentheses.isValid("))))")
         XCTAssertEqual(expected, actual)
     }
 

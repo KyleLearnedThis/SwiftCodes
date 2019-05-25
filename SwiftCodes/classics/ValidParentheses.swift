@@ -13,12 +13,12 @@ class ValidParentheses {
         for i in input.indices {
             let s = String(input[i])
             if s == "(" {
-                stack.insert(s, at: 0)
+                stack.append(s)
             } else if s == ")" {
                 if stack.count == 0 {
                     return false
                 }
-                stack.remove(at: 0)
+                stack.removeLast()
             }
         }
         return stack.count == 0
