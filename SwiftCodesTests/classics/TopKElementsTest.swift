@@ -9,7 +9,7 @@ import XCTest
 
 class TopKElementsTest: XCTestCase {
 
-    func testExample() {
+    func testBasic() {
         let tk = TopKElements()
         let input = [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5]
         let k = 3
