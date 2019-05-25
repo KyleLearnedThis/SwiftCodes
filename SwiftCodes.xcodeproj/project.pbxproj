@@ -28,6 +28,9 @@
 		DE014DA822991B1800578BB1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */; };
 		DE014DA922991B1800578BB1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */; };
 		DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */; };
+		DE014DB322993BC600578BB1 /* BSTPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DB222993BC600578BB1 /* BSTPathSum.swift */; };
+		DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DB222993BC600578BB1 /* BSTPathSum.swift */; };
+		DE014DB72299421300578BB1 /* BSTPathSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DB62299421300578BB1 /* BSTPathSumTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -115,6 +118,8 @@
 		DE014DA322990D9600578BB1 /* ValidParenthesesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTest.swift; sourceTree = "<group>"; };
 		DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestCommonPrefixTest.swift; path = SwiftCodesTests/classics/LongestCommonPrefixTest.swift; sourceTree = SOURCE_ROOT; };
+		DE014DB222993BC600578BB1 /* BSTPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTPathSum.swift; sourceTree = "<group>"; };
+		DE014DB62299421300578BB1 /* BSTPathSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTPathSumTest.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -376,6 +381,7 @@
 				DE007958223E09D100E7ACAA /* AllPaths.swift */,
 				DEFCBBE3223F5FF600CBBAC6 /* BSTInversion.swift */,
 				DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */,
+				DE014DB222993BC600578BB1 /* BSTPathSum.swift */,
 				DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */,
 			);
 			path = bst;
@@ -384,6 +390,7 @@
 		DEFCBBE8223F601600CBBAC6 /* bst */ = {
 			isa = PBXGroup;
 			children = (
+				DE014DB62299421300578BB1 /* BSTPathSumTest.swift */,
 				DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */,
 				DEFCBBE9223F623400CBBAC6 /* BSTInversionTest.swift */,
 				DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */,
@@ -580,6 +587,7 @@
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
+				DE014DB322993BC600578BB1 /* BSTPathSum.swift in Sources */,
 				DE014D982298F6A400578BB1 /* TopKElements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,6 +623,7 @@
 				DEA79A152296880E00468823 /* NumberToBinary.swift in Sources */,
 				DE90057D222B8FE200458081 /* FizzBuzzTest.swift in Sources */,
 				DE900595222BA93600458081 /* FibonacciTest.swift in Sources */,
+				DE014DB72299421300578BB1 /* BSTPathSumTest.swift in Sources */,
 				DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */,
 				DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */,
@@ -622,6 +631,7 @@
 				DE014D912298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
+				DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
