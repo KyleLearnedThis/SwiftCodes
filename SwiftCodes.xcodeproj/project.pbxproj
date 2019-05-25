@@ -16,6 +16,9 @@
 		DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */; };
 		DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D822298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift */; };
 		DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */; };
+		DE014D902298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */; };
+		DE014D912298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */; };
+		DE014D942298F57000578BB1 /* RepeatTwoNArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -95,6 +98,8 @@
 		DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperaturesTest.swift; sourceTree = "<group>"; };
 		DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfJewelsInStones.swift; sourceTree = "<group>"; };
 		DE014D822298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NumberOfJewelsInStonesTest.swift; path = SwiftCodesTests/texts/NumberOfJewelsInStonesTest.swift; sourceTree = SOURCE_ROOT; };
+		DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTwoNArray.swift; sourceTree = "<group>"; };
+		DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTwoNArrayTest.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,8 +316,9 @@
 		DEA79A042296493600468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
-				DEA79A072296497500468823 /* SingleNumber.swift */,
 				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
+				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
+				DEA79A072296497500468823 /* SingleNumber.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 			isa = PBXGroup;
 			children = (
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
+				DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */,
 				DEA79A0A229649B400468823 /* SingleNumberTest.swift */,
 			);
 			path = numbers;
@@ -546,6 +553,7 @@
 				DEFCBBFE2241A25A00CBBAC6 /* FileOpener.swift in Sources */,
 				DE3BC6D5225886EC00867EED /* Regex.swift in Sources */,
 				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
+				DE014D902298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
@@ -568,6 +576,7 @@
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */,
+				DE014D942298F57000578BB1 /* RepeatTwoNArrayTest.swift in Sources */,
 				DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */,
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DEFCBC012241A3DF00CBBAC6 /* FileOpenerTest.swift in Sources */,
@@ -580,6 +589,7 @@
 				DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */,
 				DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */,
 				DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */,
+				DE014D912298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
