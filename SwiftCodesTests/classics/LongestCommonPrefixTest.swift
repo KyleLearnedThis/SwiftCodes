@@ -2,7 +2,6 @@
 //  LongestCommonPrefixTest.swift
 //  SwiftCodesTests
 //
-//  Created by dsch_iter on 5/25/19.
 //  Copyright © 2019 kylelearnedthis. All rights reserved.
 //
 
@@ -10,24 +9,17 @@ import XCTest
 
 class LongestCommonPrefixTest: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func test01() {
+        let input = ["abcd", "abcde", "abcdef", "abc"]
+        let expected = "abc"
+        let actual = LongestCommonPrefix.longestCommonPrefix(input)
+        XCTAssertEqual(actual, expected)
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func test02() {
+        let input = ["abab","aba","abc"]
+        let expected = "ab"
+        let actual = LongestCommonPrefix.longestCommonPrefix(input)
+        XCTAssertEqual(actual, expected)
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
