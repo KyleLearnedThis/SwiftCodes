@@ -1,5 +1,5 @@
 //
-//  NumberToBInary.swift
+//  NumberToBinary.swift
 //  SwiftCodes
 //
 //  Copyright © 2019 kylelearnedthis. All rights reserved.
