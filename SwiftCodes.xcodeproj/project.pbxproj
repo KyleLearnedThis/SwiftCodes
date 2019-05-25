@@ -13,6 +13,9 @@
 		DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D7622979E9900578BB1 /* DailyTemperatures.swift */; };
 		DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D7622979E9900578BB1 /* DailyTemperatures.swift */; };
 		DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */; };
+		DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */; };
+		DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D822298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift */; };
+		DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -90,6 +93,8 @@
 		DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllPathsTest.swift; path = SwiftCodesTests/tree/bst/AllPathsTest.swift; sourceTree = SOURCE_ROOT; };
 		DE014D7622979E9900578BB1 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
 		DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperaturesTest.swift; sourceTree = "<group>"; };
+		DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfJewelsInStones.swift; sourceTree = "<group>"; };
+		DE014D822298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NumberOfJewelsInStonesTest.swift; path = SwiftCodesTests/texts/NumberOfJewelsInStonesTest.swift; sourceTree = SOURCE_ROOT; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +165,22 @@
 			path = tree;
 			sourceTree = "<group>";
 		};
+		DE014D7D2298DF7B00578BB1 /* texts */ = {
+			isa = PBXGroup;
+			children = (
+				DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */,
+			);
+			path = texts;
+			sourceTree = "<group>";
+		};
+		DE014D7F2298DF8A00578BB1 /* texts */ = {
+			isa = PBXGroup;
+			children = (
+				DE014D822298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift */,
+			);
+			path = texts;
+			sourceTree = "<group>";
+		};
 		DE3BC6CF2258838C00867EED /* file */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +241,7 @@
 				DE90058F222BA8E500458081 /* dynamic */,
 				DEFCBBFB2241A22300CBBAC6 /* swift */,
 				DEA79A042296493600468823 /* numbers */,
+				DE014D7D2298DF7B00578BB1 /* texts */,
 				DE007956223E09B000E7ACAA /* tree */,
 				DE900554222B8E5600458081 /* SwiftCodes.h */,
 				DE900555222B8E5600458081 /* Info.plist */,
@@ -235,6 +257,7 @@
 				DE900593222BA8F600458081 /* dynamic */,
 				DEA79A062296493E00468823 /* numbers */,
 				DEFCBBFF2241A3B400CBBAC6 /* swift */,
+				DE014D7F2298DF8A00578BB1 /* texts */,
 				DE00795B223E0A0600E7ACAA /* tree */,
 				DE90055F222B8E5600458081 /* SwiftCodesTests.swift */,
 				DE900561222B8E5600458081 /* Info.plist */,
@@ -513,6 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DEA79A122296861400468823 /* NumberToBInary.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
@@ -543,6 +567,7 @@
 				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
+				DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */,
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DEFCBC012241A3DF00CBBAC6 /* FileOpenerTest.swift in Sources */,
@@ -554,6 +579,7 @@
 				DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */,
 				DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */,
+				DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
