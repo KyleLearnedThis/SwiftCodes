@@ -25,6 +25,9 @@
 		DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA022990B6200578BB1 /* ValidParentheses.swift */; };
 		DE014DA222990B6200578BB1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA022990B6200578BB1 /* ValidParentheses.swift */; };
 		DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA322990D9600578BB1 /* ValidParenthesesTest.swift */; };
+		DE014DA822991B1800578BB1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */; };
+		DE014DA922991B1800578BB1 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */; };
+		DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -110,6 +113,8 @@
 		DE014D9B2298FB4800578BB1 /* TopKElementsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopKElementsTest.swift; path = SwiftCodesTests/classics/TopKElementsTest.swift; sourceTree = SOURCE_ROOT; };
 		DE014DA022990B6200578BB1 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		DE014DA322990D9600578BB1 /* ValidParenthesesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTest.swift; sourceTree = "<group>"; };
+		DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestCommonPrefixTest.swift; path = SwiftCodesTests/classics/LongestCommonPrefixTest.swift; sourceTree = SOURCE_ROOT; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,6 +290,7 @@
 			children = (
 				DE900575222B8F9000458081 /* AirportRoute.swift */,
 				DE900574222B8F8F00458081 /* FizzBuzz.swift */,
+				DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */,
 				DE014D972298F6A400578BB1 /* TopKElements.swift */,
 				DE014DA022990B6200578BB1 /* ValidParentheses.swift */,
 			);
@@ -296,6 +302,7 @@
 			children = (
 				DE900582222B906500458081 /* AirportRouteTest.swift */,
 				DE90057C222B8FE200458081 /* FizzBuzzTest.swift */,
+				DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */,
 				DE014D9B2298FB4800578BB1 /* TopKElementsTest.swift */,
 				DE014DA322990D9600578BB1 /* ValidParenthesesTest.swift */,
 			);
@@ -568,6 +575,7 @@
 				DEFCBBFE2241A25A00CBBAC6 /* FileOpener.swift in Sources */,
 				DE3BC6D5225886EC00867EED /* Regex.swift in Sources */,
 				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
+				DE014DA822991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
 				DE014D902298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
@@ -580,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */,
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
 				DE900583222B906500458081 /* AirportRouteTest.swift in Sources */,
@@ -591,6 +600,7 @@
 				DEFCBC022241A44800CBBAC6 /* FileOpener.swift in Sources */,
 				DEA79A14229687B400468823 /* NumberToBinaryTest.swift in Sources */,
 				DE3BC6D6225886EC00867EED /* Regex.swift in Sources */,
+				DE014DA922991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
 				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
