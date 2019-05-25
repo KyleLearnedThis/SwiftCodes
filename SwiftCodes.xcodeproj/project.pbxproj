@@ -22,6 +22,9 @@
 		DE014D982298F6A400578BB1 /* TopKElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D972298F6A400578BB1 /* TopKElements.swift */; };
 		DE014D992298F6A400578BB1 /* TopKElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D972298F6A400578BB1 /* TopKElements.swift */; };
 		DE014D9C2298FB4800578BB1 /* TopKElementsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014D9B2298FB4800578BB1 /* TopKElementsTest.swift */; };
+		DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA022990B6200578BB1 /* ValidParentheses.swift */; };
+		DE014DA222990B6200578BB1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA022990B6200578BB1 /* ValidParentheses.swift */; };
+		DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DA322990D9600578BB1 /* ValidParenthesesTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -104,7 +107,9 @@
 		DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTwoNArray.swift; sourceTree = "<group>"; };
 		DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTwoNArrayTest.swift; sourceTree = "<group>"; };
 		DE014D972298F6A400578BB1 /* TopKElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKElements.swift; sourceTree = "<group>"; };
-		DE014D9B2298FB4800578BB1 /* TopKElementsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopKElementsTest.swift; path = SwiftCodesTests/numbers/TopKElementsTest.swift; sourceTree = SOURCE_ROOT; };
+		DE014D9B2298FB4800578BB1 /* TopKElementsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopKElementsTest.swift; path = SwiftCodesTests/classics/TopKElementsTest.swift; sourceTree = SOURCE_ROOT; };
+		DE014DA022990B6200578BB1 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
+		DE014DA322990D9600578BB1 /* ValidParenthesesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTest.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -280,6 +285,8 @@
 			children = (
 				DE900575222B8F9000458081 /* AirportRoute.swift */,
 				DE900574222B8F8F00458081 /* FizzBuzz.swift */,
+				DE014D972298F6A400578BB1 /* TopKElements.swift */,
+				DE014DA022990B6200578BB1 /* ValidParentheses.swift */,
 			);
 			path = classics;
 			sourceTree = "<group>";
@@ -289,6 +296,8 @@
 			children = (
 				DE900582222B906500458081 /* AirportRouteTest.swift */,
 				DE90057C222B8FE200458081 /* FizzBuzzTest.swift */,
+				DE014D9B2298FB4800578BB1 /* TopKElementsTest.swift */,
+				DE014DA322990D9600578BB1 /* ValidParenthesesTest.swift */,
 			);
 			path = classics;
 			sourceTree = "<group>";
@@ -324,7 +333,6 @@
 				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
 				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
 				DEA79A072296497500468823 /* SingleNumber.swift */,
-				DE014D972298F6A400578BB1 /* TopKElements.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -332,7 +340,6 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
-				DE014D9B2298FB4800578BB1 /* TopKElementsTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */,
 				DEA79A0A229649B400468823 /* SingleNumberTest.swift */,
@@ -553,6 +560,7 @@
 				DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DEA79A122296861400468823 /* NumberToBInary.swift in Sources */,
+				DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DEA79A082296497500468823 /* SingleNumber.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
@@ -575,7 +583,9 @@
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
 				DE900583222B906500458081 /* AirportRouteTest.swift in Sources */,
+				DE014DA222990B6200578BB1 /* ValidParentheses.swift in Sources */,
 				DE014D9C2298FB4800578BB1 /* TopKElementsTest.swift in Sources */,
+				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
 				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
 				DEFCBC022241A44800CBBAC6 /* FileOpener.swift in Sources */,
