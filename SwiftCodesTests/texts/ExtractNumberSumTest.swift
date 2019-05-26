@@ -2,8 +2,20 @@
 //  ExtractNumberSumTest.swift
 //  SwiftCodesTests
 //
-//  Created by dsch_iter on 5/25/19.
 //  Copyright © 2019 kylelearnedthis. All rights reserved.
 //
 
-import Foundation
+import XCTest
+
+class ExtractNumberSumTest: XCTestCase {
+
+    func testBasic() {
+        let expected = 111
+        let input = "aaa100bbb10ccc1"
+        let actual = ExtractNumberSum.extractNumbers(input)
+        XCTAssertEqual(expected, actual)
+    }
+
+}
+
+
