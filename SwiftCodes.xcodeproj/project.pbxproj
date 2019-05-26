@@ -31,6 +31,9 @@
 		DE014DB322993BC600578BB1 /* BSTPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DB222993BC600578BB1 /* BSTPathSum.swift */; };
 		DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DB222993BC600578BB1 /* BSTPathSum.swift */; };
 		DE014DB72299421300578BB1 /* BSTPathSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DB62299421300578BB1 /* BSTPathSumTest.swift */; };
+		DE014DBD229A157900578BB1 /* ListReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DBC229A157900578BB1 /* ListReverse.swift */; };
+		DE014DBE229A157900578BB1 /* ListReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DBC229A157900578BB1 /* ListReverse.swift */; };
+		DE014DC1229A1AAA00578BB1 /* ListReverseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DC0229A1AAA00578BB1 /* ListReverseTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -120,6 +123,8 @@
 		DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestCommonPrefixTest.swift; path = SwiftCodesTests/classics/LongestCommonPrefixTest.swift; sourceTree = SOURCE_ROOT; };
 		DE014DB222993BC600578BB1 /* BSTPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTPathSum.swift; sourceTree = "<group>"; };
 		DE014DB62299421300578BB1 /* BSTPathSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTPathSumTest.swift; sourceTree = "<group>"; };
+		DE014DBC229A157900578BB1 /* ListReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListReverse.swift; sourceTree = "<group>"; };
+		DE014DC0229A1AAA00578BB1 /* ListReverseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListReverseTest.swift; path = SwiftCodesTests/list/ListReverseTest.swift; sourceTree = SOURCE_ROOT; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +211,21 @@
 			path = texts;
 			sourceTree = "<group>";
 		};
+		DE014DBA229A154A00578BB1 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				DE014DBC229A157900578BB1 /* ListReverse.swift */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		DE014DBF229A158000578BB1 /* list */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
 		DE3BC6CF2258838C00867EED /* file */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +284,7 @@
 				DEA79A0E229685F000468823 /* bits */,
 				DE90056C222B8EA900458081 /* classics */,
 				DE90058F222BA8E500458081 /* dynamic */,
+				DE014DBA229A154A00578BB1 /* list */,
 				DEFCBBFB2241A22300CBBAC6 /* swift */,
 				DEA79A042296493600468823 /* numbers */,
 				DE014D7D2298DF7B00578BB1 /* texts */,
@@ -280,6 +301,7 @@
 				DEA79A10229685F900468823 /* bits */,
 				DE90056D222B8EB200458081 /* classics */,
 				DE900593222BA8F600458081 /* dynamic */,
+				DE014DBF229A158000578BB1 /* list */,
 				DEA79A062296493E00468823 /* numbers */,
 				DEFCBBFF2241A3B400CBBAC6 /* swift */,
 				DE014D7F2298DF8A00578BB1 /* texts */,
@@ -305,6 +327,7 @@
 		DE90056D222B8EB200458081 /* classics */ = {
 			isa = PBXGroup;
 			children = (
+				DE014DC0229A1AAA00578BB1 /* ListReverseTest.swift */,
 				DE900582222B906500458081 /* AirportRouteTest.swift */,
 				DE90057C222B8FE200458081 /* FizzBuzzTest.swift */,
 				DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */,
@@ -588,6 +611,7 @@
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DE014DB322993BC600578BB1 /* BSTPathSum.swift in Sources */,
+				DE014DBD229A157900578BB1 /* ListReverse.swift in Sources */,
 				DE014D982298F6A400578BB1 /* TopKElements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,6 +621,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */,
+				DE014DC1229A1AAA00578BB1 /* ListReverseTest.swift in Sources */,
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
 				DE900583222B906500458081 /* AirportRouteTest.swift in Sources */,
@@ -632,6 +657,7 @@
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */,
+				DE014DBE229A157900578BB1 /* ListReverse.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
