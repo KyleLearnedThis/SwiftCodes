@@ -46,6 +46,17 @@
 		DE1D6AF0229D069B0084183F /* SortByMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AEF229D069B0084183F /* SortByMember.swift */; };
 		DE1D6AF1229D069B0084183F /* SortByMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AEF229D069B0084183F /* SortByMember.swift */; };
 		DE1D6AF3229D09120084183F /* SortByMemberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AF2229D09120084183F /* SortByMemberTest.swift */; };
+		DE1D6AFC229D2C020084183F /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AFB229D2C020084183F /* Sound.swift */; };
+		DE1D6AFD229D2C020084183F /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AFB229D2C020084183F /* Sound.swift */; };
+		DE1D6AFF229D2C270084183F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AFE229D2C270084183F /* Dog.swift */; };
+		DE1D6B00229D2C270084183F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AFE229D2C270084183F /* Dog.swift */; };
+		DE1D6B02229D2C5C0084183F /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B01229D2C5C0084183F /* Phone.swift */; };
+		DE1D6B03229D2C5C0084183F /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B01229D2C5C0084183F /* Phone.swift */; };
+		DE1D6B05229D2C8F0084183F /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B04229D2C8F0084183F /* Cat.swift */; };
+		DE1D6B06229D2C8F0084183F /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B04229D2C8F0084183F /* Cat.swift */; };
+		DE1D6B08229D2CE20084183F /* MakeSoundTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B07229D2CE20084183F /* MakeSoundTest.swift */; };
+		DE1D6B0A229D2DDC0084183F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B09229D2DDC0084183F /* Car.swift */; };
+		DE1D6B0B229D2DDC0084183F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B09229D2DDC0084183F /* Car.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -151,6 +162,12 @@
 		DE1D6AED229D04DC0084183F /* ConvertTypesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTypesTest.swift; sourceTree = "<group>"; };
 		DE1D6AEF229D069B0084183F /* SortByMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortByMember.swift; sourceTree = "<group>"; };
 		DE1D6AF2229D09120084183F /* SortByMemberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SortByMemberTest.swift; path = SwiftCodesTests/swift/collections/SortByMemberTest.swift; sourceTree = SOURCE_ROOT; };
+		DE1D6AFB229D2C020084183F /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		DE1D6AFE229D2C270084183F /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		DE1D6B01229D2C5C0084183F /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		DE1D6B04229D2C8F0084183F /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		DE1D6B07229D2CE20084183F /* MakeSoundTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeSoundTest.swift; sourceTree = "<group>"; };
+		DE1D6B09229D2DDC0084183F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE570054229C96C30053F21A /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
@@ -293,6 +310,42 @@
 				DE1D6AED229D04DC0084183F /* ConvertTypesTest.swift */,
 			);
 			path = conversion;
+			sourceTree = "<group>";
+		};
+		DE1D6AF6229D2BB70084183F /* object */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D6AF8229D2BCC0084183F /* classes */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		DE1D6AF8229D2BCC0084183F /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D6AFB229D2C020084183F /* Sound.swift */,
+				DE1D6AFE229D2C270084183F /* Dog.swift */,
+				DE1D6B01229D2C5C0084183F /* Phone.swift */,
+				DE1D6B04229D2C8F0084183F /* Cat.swift */,
+				DE1D6B09229D2DDC0084183F /* Car.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		DE1D6AF9229D2BDA0084183F /* object */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D6AFA229D2BE10084183F /* classes */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		DE1D6AFA229D2BE10084183F /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D6B07229D2CE20084183F /* MakeSoundTest.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 		DE3BC6CF2258838C00867EED /* file */ = {
@@ -498,6 +551,7 @@
 				DE1D6ADC229CF24F0084183F /* collections */,
 				DE1D6AE3229D042F0084183F /* conversion */,
 				DE3BC6D1225883C800867EED /* file */,
+				DE1D6AF6229D2BB70084183F /* object */,
 				DE3BC6D3225886A700867EED /* text */,
 			);
 			path = swift;
@@ -509,6 +563,7 @@
 				DE1D6AEB229D04BF0084183F /* conversion */,
 				DE1D6AE0229CF4A60084183F /* collections */,
 				DE3BC6CF2258838C00867EED /* file */,
+				DE1D6AF9229D2BDA0084183F /* object */,
 				DE3BC6D22258860C00867EED /* text */,
 			);
 			path = swift;
@@ -670,17 +725,22 @@
 			files = (
 				DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE570055229C96C30053F21A /* MergeSortedArray.swift in Sources */,
+				DE1D6B0A229D2DDC0084183F /* Car.swift in Sources */,
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DEA79A122296861400468823 /* NumberToBinary.swift in Sources */,
+				DE1D6B02229D2C5C0084183F /* Phone.swift in Sources */,
 				DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */,
+				DE1D6AFF229D2C270084183F /* Dog.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DEA79A082296497500468823 /* SingleNumber.swift in Sources */,
 				DE1D6AF0229D069B0084183F /* SortByMember.swift in Sources */,
+				DE1D6B05229D2C8F0084183F /* Cat.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DE9ED2AF229C608500C3D72B /* StringPractices.swift in Sources */,
 				DEFCBBE4223F5FF600CBBAC6 /* BSTInversion.swift in Sources */,
 				DEFCBBFE2241A25A00CBBAC6 /* FileOpener.swift in Sources */,
 				DE3BC6D5225886EC00867EED /* Regex.swift in Sources */,
+				DE1D6AFC229D2C020084183F /* Sound.swift in Sources */,
 				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DE014DA822991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
 				DE014D902298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
@@ -704,6 +764,8 @@
 				DE1D6AEE229D04DC0084183F /* ConvertTypesTest.swift in Sources */,
 				DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */,
 				DE570056229C96C30053F21A /* MergeSortedArray.swift in Sources */,
+				DE1D6B03229D2C5C0084183F /* Phone.swift in Sources */,
+				DE1D6B08229D2CE20084183F /* MakeSoundTest.swift in Sources */,
 				DE014DC1229A1AAA00578BB1 /* ListReverseTest.swift in Sources */,
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
@@ -714,6 +776,7 @@
 				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
 				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
+				DE1D6B00229D2C270084183F /* Dog.swift in Sources */,
 				DEFCBC022241A44800CBBAC6 /* FileOpener.swift in Sources */,
 				DEA79A14229687B400468823 /* NumberToBinaryTest.swift in Sources */,
 				DE3BC6D6225886EC00867EED /* Regex.swift in Sources */,
@@ -732,6 +795,7 @@
 				DEFCBC012241A3DF00CBBAC6 /* FileOpenerTest.swift in Sources */,
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
 				DE9ED2B5229C619A00C3D72B /* StringPracticesTest.swift in Sources */,
+				DE1D6B0B229D2DDC0084183F /* Car.swift in Sources */,
 				DEA79A092296497500468823 /* SingleNumber.swift in Sources */,
 				DE1D6AF1229D069B0084183F /* SortByMember.swift in Sources */,
 				DEA79A152296880E00468823 /* NumberToBinary.swift in Sources */,
@@ -739,11 +803,13 @@
 				DE570058229C9A7B0053F21A /* MergeSortedArrayTest.swift in Sources */,
 				DE900595222BA93600458081 /* FibonacciTest.swift in Sources */,
 				DE014DB72299421300578BB1 /* BSTPathSumTest.swift in Sources */,
+				DE1D6AFD229D2C020084183F /* Sound.swift in Sources */,
 				DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */,
 				DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */,
 				DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */,
 				DE014D912298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
+				DE1D6B06229D2C8F0084183F /* Cat.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */,
