@@ -14,7 +14,6 @@ class OrderedDictionaryExample {
 
         if isDescending {
             sortedMap = map.sorted { $0.1 > $1.1 }
-            //.sorted(by: { $0.0 < $1.0 })
         } else {
             sortedMap = map.sorted { $0.1 < $1.1 }
         }

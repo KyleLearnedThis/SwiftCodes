@@ -40,6 +40,12 @@
 		DE1D6ADE229CF2810084183F /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */; };
 		DE1D6ADF229CF2810084183F /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */; };
 		DE1D6AE2229CF4E00084183F /* OrderedDictionaryExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AE1229CF4E00084183F /* OrderedDictionaryExampleTest.swift */; };
+		DE1D6AE5229D04470084183F /* ConvertTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AE4229D04470084183F /* ConvertTypes.swift */; };
+		DE1D6AE6229D04470084183F /* ConvertTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AE4229D04470084183F /* ConvertTypes.swift */; };
+		DE1D6AEE229D04DC0084183F /* ConvertTypesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AED229D04DC0084183F /* ConvertTypesTest.swift */; };
+		DE1D6AF0229D069B0084183F /* SortByMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AEF229D069B0084183F /* SortByMember.swift */; };
+		DE1D6AF1229D069B0084183F /* SortByMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AEF229D069B0084183F /* SortByMember.swift */; };
+		DE1D6AF3229D09120084183F /* SortByMemberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AF2229D09120084183F /* SortByMemberTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -141,6 +147,10 @@
 		DE014DCC229A3B8100578BB1 /* ExtractNumberSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractNumberSumTest.swift; sourceTree = "<group>"; };
 		DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryExample.swift; sourceTree = "<group>"; };
 		DE1D6AE1229CF4E00084183F /* OrderedDictionaryExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderedDictionaryExampleTest.swift; path = SwiftCodesTests/swift/collections/OrderedDictionaryExampleTest.swift; sourceTree = SOURCE_ROOT; };
+		DE1D6AE4229D04470084183F /* ConvertTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTypes.swift; sourceTree = "<group>"; };
+		DE1D6AED229D04DC0084183F /* ConvertTypesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTypesTest.swift; sourceTree = "<group>"; };
+		DE1D6AEF229D069B0084183F /* SortByMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortByMember.swift; sourceTree = "<group>"; };
+		DE1D6AF2229D09120084183F /* SortByMemberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SortByMemberTest.swift; path = SwiftCodesTests/swift/collections/SortByMemberTest.swift; sourceTree = SOURCE_ROOT; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE570054229C96C30053F21A /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
@@ -255,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */,
+				DE1D6AEF229D069B0084183F /* SortByMember.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -263,8 +274,25 @@
 			isa = PBXGroup;
 			children = (
 				DE1D6AE1229CF4E00084183F /* OrderedDictionaryExampleTest.swift */,
+				DE1D6AF2229D09120084183F /* SortByMemberTest.swift */,
 			);
 			path = collections;
+			sourceTree = "<group>";
+		};
+		DE1D6AE3229D042F0084183F /* conversion */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D6AE4229D04470084183F /* ConvertTypes.swift */,
+			);
+			path = conversion;
+			sourceTree = "<group>";
+		};
+		DE1D6AEB229D04BF0084183F /* conversion */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D6AED229D04DC0084183F /* ConvertTypesTest.swift */,
+			);
+			path = conversion;
 			sourceTree = "<group>";
 		};
 		DE3BC6CF2258838C00867EED /* file */ = {
@@ -468,6 +496,7 @@
 			isa = PBXGroup;
 			children = (
 				DE1D6ADC229CF24F0084183F /* collections */,
+				DE1D6AE3229D042F0084183F /* conversion */,
 				DE3BC6D1225883C800867EED /* file */,
 				DE3BC6D3225886A700867EED /* text */,
 			);
@@ -477,6 +506,7 @@
 		DEFCBBFF2241A3B400CBBAC6 /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				DE1D6AEB229D04BF0084183F /* conversion */,
 				DE1D6AE0229CF4A60084183F /* collections */,
 				DE3BC6CF2258838C00867EED /* file */,
 				DE3BC6D22258860C00867EED /* text */,
@@ -645,6 +675,7 @@
 				DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DEA79A082296497500468823 /* SingleNumber.swift in Sources */,
+				DE1D6AF0229D069B0084183F /* SortByMember.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DE9ED2AF229C608500C3D72B /* StringPractices.swift in Sources */,
 				DEFCBBE4223F5FF600CBBAC6 /* BSTInversion.swift in Sources */,
@@ -657,6 +688,7 @@
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DE014DB322993BC600578BB1 /* BSTPathSum.swift in Sources */,
+				DE1D6AE5229D04470084183F /* ConvertTypes.swift in Sources */,
 				DE014DBD229A157900578BB1 /* ListReverse.swift in Sources */,
 				DE1D6ADE229CF2810084183F /* OrderedDictionaryExample.swift in Sources */,
 				DE014DC9229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */,
@@ -669,6 +701,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1D6AE2229CF4E00084183F /* OrderedDictionaryExampleTest.swift in Sources */,
+				DE1D6AEE229D04DC0084183F /* ConvertTypesTest.swift in Sources */,
 				DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */,
 				DE570056229C96C30053F21A /* MergeSortedArray.swift in Sources */,
 				DE014DC1229A1AAA00578BB1 /* ListReverseTest.swift in Sources */,
@@ -687,10 +720,12 @@
 				DE014DA922991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
 				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
+				DE1D6AE6229D04470084183F /* ConvertTypes.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE014DCA229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */,
 				DE014D942298F57000578BB1 /* RepeatTwoNArrayTest.swift in Sources */,
+				DE1D6AF3229D09120084183F /* SortByMemberTest.swift in Sources */,
 				DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */,
 				DE014D992298F6A400578BB1 /* TopKElements.swift in Sources */,
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
@@ -698,6 +733,7 @@
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
 				DE9ED2B5229C619A00C3D72B /* StringPracticesTest.swift in Sources */,
 				DEA79A092296497500468823 /* SingleNumber.swift in Sources */,
+				DE1D6AF1229D069B0084183F /* SortByMember.swift in Sources */,
 				DEA79A152296880E00468823 /* NumberToBinary.swift in Sources */,
 				DE90057D222B8FE200458081 /* FizzBuzzTest.swift in Sources */,
 				DE570058229C9A7B0053F21A /* MergeSortedArrayTest.swift in Sources */,
