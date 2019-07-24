@@ -63,6 +63,9 @@
 		DE570055229C96C30053F21A /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570054229C96C30053F21A /* MergeSortedArray.swift */; };
 		DE570056229C96C30053F21A /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570054229C96C30053F21A /* MergeSortedArray.swift */; };
 		DE570058229C9A7B0053F21A /* MergeSortedArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570057229C9A7B0053F21A /* MergeSortedArrayTest.swift */; };
+		DE5F6EED22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */; };
+		DE5F6EEE22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */; };
+		DE5F6EF122E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */; };
 		DE90055B222B8E5600458081 /* SwiftCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE900551222B8E5600458081 /* SwiftCodes.framework */; };
 		DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90055F222B8E5600458081 /* SwiftCodesTests.swift */; };
 		DE900562222B8E5600458081 /* SwiftCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = DE900554222B8E5600458081 /* SwiftCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -172,6 +175,8 @@
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE570054229C96C30053F21A /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		DE570057229C9A7B0053F21A /* MergeSortedArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArrayTest.swift; sourceTree = "<group>"; };
+		DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
+		DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysTest.swift; sourceTree = "<group>"; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE900554222B8E5600458081 /* SwiftCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCodes.h; sourceTree = "<group>"; };
 		DE900555222B8E5600458081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -489,6 +494,7 @@
 				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
 				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
 				DEA79A072296497500468823 /* SingleNumber.swift */,
+				DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */,
 				DE570054229C96C30053F21A /* MergeSortedArray.swift */,
 			);
 			path = numbers;
@@ -500,6 +506,7 @@
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */,
 				DEA79A0A229649B400468823 /* SingleNumberTest.swift */,
+				DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */,
 				DE570057229C9A7B0053F21A /* MergeSortedArrayTest.swift */,
 			);
 			path = numbers;
@@ -726,6 +733,7 @@
 				DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE570055229C96C30053F21A /* MergeSortedArray.swift in Sources */,
 				DE1D6B0A229D2DDC0084183F /* Car.swift in Sources */,
+				DE5F6EED22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */,
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DEA79A122296861400468823 /* NumberToBinary.swift in Sources */,
 				DE1D6B02229D2C5C0084183F /* Phone.swift in Sources */,
@@ -782,6 +790,7 @@
 				DE3BC6D6225886EC00867EED /* Regex.swift in Sources */,
 				DE014DA922991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
 				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
+				DE5F6EF122E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift in Sources */,
 				DE00795D223E0A3400E7ACAA /* AllPathsTest.swift in Sources */,
 				DE1D6AE6229D04470084183F /* ConvertTypes.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
@@ -816,6 +825,7 @@
 				DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */,
 				DE1D6ADF229CF2810084183F /* OrderedDictionaryExample.swift in Sources */,
 				DE014DBE229A157900578BB1 /* ListReverse.swift in Sources */,
+				DE5F6EEE22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
