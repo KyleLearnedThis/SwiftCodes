@@ -66,6 +66,9 @@
 		DE5F6EED22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */; };
 		DE5F6EEE22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */; };
 		DE5F6EF122E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */; };
+		DE5F6EF522E94D53005DF8D0 /* IPDefanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EF422E94D53005DF8D0 /* IPDefanger.swift */; };
+		DE5F6EF622E94D53005DF8D0 /* IPDefanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EF422E94D53005DF8D0 /* IPDefanger.swift */; };
+		DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6EF822E95D9C005DF8D0 /* IPDefangerTest.swift */; };
 		DE90055B222B8E5600458081 /* SwiftCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE900551222B8E5600458081 /* SwiftCodes.framework */; };
 		DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90055F222B8E5600458081 /* SwiftCodesTests.swift */; };
 		DE900562222B8E5600458081 /* SwiftCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = DE900554222B8E5600458081 /* SwiftCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -177,6 +180,8 @@
 		DE570057229C9A7B0053F21A /* MergeSortedArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArrayTest.swift; sourceTree = "<group>"; };
 		DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 		DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysTest.swift; sourceTree = "<group>"; };
+		DE5F6EF422E94D53005DF8D0 /* IPDefanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDefanger.swift; sourceTree = "<group>"; };
+		DE5F6EF822E95D9C005DF8D0 /* IPDefangerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDefangerTest.swift; sourceTree = "<group>"; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE900554222B8E5600458081 /* SwiftCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCodes.h; sourceTree = "<group>"; };
 		DE900555222B8E5600458081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -251,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */,
+				DE5F6EF422E94D53005DF8D0 /* IPDefanger.swift */,
 				DE014D802298DFC200578BB1 /* NumberOfJewelsInStones.swift */,
 				DE9ED2AE229C608500C3D72B /* StringPractices.swift */,
 			);
@@ -261,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				DE014DCC229A3B8100578BB1 /* ExtractNumberSumTest.swift */,
+				DE5F6EF822E95D9C005DF8D0 /* IPDefangerTest.swift */,
 				DE014D822298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift */,
 				DE9ED2B4229C619A00C3D72B /* StringPracticesTest.swift */,
 			);
@@ -730,6 +737,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5F6EF522E94D53005DF8D0 /* IPDefanger.swift in Sources */,
 				DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE570055229C96C30053F21A /* MergeSortedArray.swift in Sources */,
 				DE1D6B0A229D2DDC0084183F /* Car.swift in Sources */,
@@ -782,6 +790,7 @@
 				DE014D9C2298FB4800578BB1 /* TopKElementsTest.swift in Sources */,
 				DE9ED2B0229C608500C3D72B /* StringPractices.swift in Sources */,
 				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
+				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
 				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
 				DE1D6B00229D2C270084183F /* Dog.swift in Sources */,
@@ -816,6 +825,7 @@
 				DEFCBBDD223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DEFCBBE0223F5D6700CBBAC6 /* BSTMaxHeightTest.swift in Sources */,
 				DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */,
+				DE5F6EF622E94D53005DF8D0 /* IPDefanger.swift in Sources */,
 				DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */,
 				DE014D912298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DE1D6B06229D2C8F0084183F /* Cat.swift in Sources */,
