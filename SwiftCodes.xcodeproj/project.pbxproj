@@ -81,6 +81,8 @@
 		DE5F6F1B22EC0DEE005DF8D0 /* CharacterExpansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6F1A22EC0DEE005DF8D0 /* CharacterExpansion.swift */; };
 		DE5F6F1C22EC0DEE005DF8D0 /* CharacterExpansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6F1A22EC0DEE005DF8D0 /* CharacterExpansion.swift */; };
 		DE5F6F1E22EC1289005DF8D0 /* CharacterExpansionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F6F1D22EC1289005DF8D0 /* CharacterExpansionTest.swift */; };
+		DE74E188230A871400C2A53E /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74E187230A871400C2A53E /* Pair.swift */; };
+		DE74E189230A871400C2A53E /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74E187230A871400C2A53E /* Pair.swift */; };
 		DE820456230543C800A2B3C8 /* MappingTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE820455230543C800A2B3C8 /* MappingTransform.swift */; };
 		DE820457230543C800A2B3C8 /* MappingTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE820455230543C800A2B3C8 /* MappingTransform.swift */; };
 		DE8204592305453800A2B3C8 /* MappingTransformTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8204582305453800A2B3C8 /* MappingTransformTest.swift */; };
@@ -207,6 +209,7 @@
 		DE5F6F1022EAA1FB005DF8D0 /* HeightCheckerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeightCheckerTest.swift; path = SwiftCodesTests/numbers/HeightCheckerTest.swift; sourceTree = SOURCE_ROOT; };
 		DE5F6F1A22EC0DEE005DF8D0 /* CharacterExpansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterExpansion.swift; sourceTree = "<group>"; };
 		DE5F6F1D22EC1289005DF8D0 /* CharacterExpansionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CharacterExpansionTest.swift; path = SwiftCodesTests/texts/CharacterExpansionTest.swift; sourceTree = SOURCE_ROOT; };
+		DE74E187230A871400C2A53E /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
 		DE820455230543C800A2B3C8 /* MappingTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingTransform.swift; sourceTree = "<group>"; };
 		DE8204582305453800A2B3C8 /* MappingTransformTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MappingTransformTest.swift; path = SwiftCodesTests/swift/collections/MappingTransformTest.swift; sourceTree = SOURCE_ROOT; };
 		DE82045B23065A7600A2B3C8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -439,6 +442,7 @@
 		DE82045F23065C4B00A2B3C8 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				DE74E187230A871400C2A53E /* Pair.swift */,
 				DE82045B23065A7600A2B3C8 /* Person.swift */,
 			);
 			path = data;
@@ -821,6 +825,7 @@
 				DE014DA822991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
 				DE014D902298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DE5F6EFD22E994CA005DF8D0 /* DuplicateZeros.swift in Sources */,
+				DE74E188230A871400C2A53E /* Pair.swift in Sources */,
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
@@ -901,6 +906,7 @@
 				DE5F6F1122EAA1FB005DF8D0 /* HeightCheckerTest.swift in Sources */,
 				DE014D912298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DE1D6B06229D2C8F0084183F /* Cat.swift in Sources */,
+				DE74E189230A871400C2A53E /* Pair.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */,
