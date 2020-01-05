@@ -9,8 +9,15 @@ import XCTest
 
 class RxSwiftExamplesTest: XCTestCase {
 
-    func testExample0001() {
-        RxSwiftExamples.example001()
+    func testFlatmap001() {
+        RxSwiftExamples.flatmap001()
     }
 
+    func testFilter001() {
+        RxSwiftExamples.filter001()
+    }
+    
+    func testZip001() {
+        RxSwiftExamples.zip001()
+    }
 }
