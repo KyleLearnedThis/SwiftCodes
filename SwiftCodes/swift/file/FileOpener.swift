@@ -10,7 +10,7 @@ import Foundation
 public class FileOpener {
     public func openHomeFile(inputDirectory: String, fileName: String) -> String {
         var input = ""
-        var x = fileName.components(separatedBy: ".")
+        let x = fileName.components(separatedBy: ".")
         let home = FileManager.default.homeDirectoryForCurrentUser
         let url = home.appendingPathComponent(inputDirectory)
             .appendingPathComponent(x[0])
