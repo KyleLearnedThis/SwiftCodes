@@ -11,53 +11,54 @@ import RxSwift
 class RxSwiftExamples {
     static var bag = DisposeBag()
     
-    static func basicArray001() {
-        let array = [1,10,100,1000,10000]
+    static func basicArray001(_ array: [Int]) {
         let source = Observable.from(array)
         source.subscribe(onNext: { it in print("===== \(it) =====")})
         .disposed(by: bag)
     }
     
-    static func flatmap001() {
-        let source = Observable.just("1/10/100/Alpha")
+    static func flatmap001(_ inputString: String) {
+        let source = Observable.just(inputString)
         source.flatMap({
-            Observable.of(
+            Observable.from(
                 $0.split(separator: "/").map {
                     return String($0)
                 })
+            }).filter({ Int($0) != nil })
+            .subscribe(onNext: { it in print("===== \(it) =====")})
+            .disposed(by: bag)
+    }
+    
+    static func filter001(_ array: [String]) {
+        let source = Observable.from(array)
+        source.map { return Int($0)! }
+            .filter { it in it >= 3 }
+            .subscribe(onNext: { it in print("===== \(it) =====")})
+            .disposed(by: bag)
+    }
+    
+    static func filter002(_ array: [String]) {
+        let source = Observable.from(array)
+        source.filter({ Int($0) != nil })
+            .map({ it in
+                return Int(it)! * Int(it)!
             })
             .subscribe(onNext: { it in print("===== \(it) =====")})
             .disposed(by: bag)
     }
     
-    static func filter001() {
-        let source = Observable.of("1", "2", "3", "4", "5")
-        source.map { return Int($0)!}
-            .filter{ it in it >= 3 }
-            .subscribe(onNext: { it in print("===== \(it) =====")})
-            .disposed(by: bag)
-    }
-    
-    static func filter002() {
-        let array = ["1", "A", "2", "B", "3", "C", "4"]
-        let source = Observable.from(array)
-        source.filter({ Int($0) != nil })
-            .subscribe(onNext: { it in print("===== \(it) =====")})
-            .disposed(by: bag)
-    }
-    
-    static func zip001() {
-        let src1 = Observable.of("YVR", "CDG", "SFO", "JFK")
-        let src2 = Observable.of("Vancouver", "Paris", "San Francisco", "New York City")
+    static func zip001(_ keys: [String], _ values: [String]) {
+        let src1 = Observable.from(keys)
+        let src2 = Observable.from(values)
         Observable.zip(src1, src2, resultSelector: {(l,r)  in return (l,r)})
-            .subscribe(onNext: {it in print(" ===[\(it.0)]-[\(it.1)]===") })
+            .subscribe(onNext: {it in print("===== [\(it.0)]-[\(it.1)] =====") })
             .disposed(by: bag)
     }
     
-    static func reduce() {
-        let array = [1,2,3,4,5]
-        Observable.of(array)
-            .subscribe(onNext: {it in print("[\(it)]")})
+    static func reduce001(_ array: [Int]) {
+        Observable.from(array)
+            .reduce(0, accumulator: {x,y in x + y})
+            .subscribe(onNext: {it in print("===== [\(it)] =====")})
             .disposed(by: bag)
     }
 }
