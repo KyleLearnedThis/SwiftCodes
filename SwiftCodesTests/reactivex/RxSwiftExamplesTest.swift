@@ -18,6 +18,10 @@ class RxSwiftExamplesTest: XCTestCase {
         let inputString = "1/10/100/Alpha"
         RxSwiftExamples.flatmap001(inputString)
     }
+    
+    func testFlatmap002() {
+        RxSwiftExamples.flatmap002()
+    }
 
     func testFilter001() {
         let array = ["1", "2", "3", "4", "5"]
