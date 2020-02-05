@@ -60,6 +60,11 @@
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
+		DE412FD123EABF4E001EE75C /* HttpJsonFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */; };
+		DE412FD223EABF4E001EE75C /* HttpJsonFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */; };
+		DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */; };
+		DE412FD523EABF6E001EE75C /* HttpJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */; };
+		DE412FD723EAC067001EE75C /* HttpJsonExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD623EAC067001EE75C /* HttpJsonExampleTest.swift */; };
 		DE565C9A23EA94C100423707 /* HttpClientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE565C9923EA94C100423707 /* HttpClientExample.swift */; };
 		DE565C9B23EA94C100423707 /* HttpClientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE565C9923EA94C100423707 /* HttpClientExample.swift */; };
 		DE565C9E23EA94F300423707 /* HttpClientExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE565C9D23EA94F300423707 /* HttpClientExampleTest.swift */; };
@@ -202,6 +207,9 @@
 		DE1D6B09229D2DDC0084183F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
+		DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonFormat.swift; sourceTree = "<group>"; };
+		DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonExample.swift; sourceTree = "<group>"; };
+		DE412FD623EAC067001EE75C /* HttpJsonExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonExampleTest.swift; sourceTree = "<group>"; };
 		DE565C9923EA94C100423707 /* HttpClientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientExample.swift; sourceTree = "<group>"; };
 		DE565C9D23EA94F300423707 /* HttpClientExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpClientExampleTest.swift; path = SwiftCodesTests/classics/HttpClientExampleTest.swift; sourceTree = SOURCE_ROOT; };
 		DE570054229C96C30053F21A /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
@@ -443,6 +451,8 @@
 			isa = PBXGroup;
 			children = (
 				DE565C9923EA94C100423707 /* HttpClientExample.swift */,
+				DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */,
+				DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -451,6 +461,7 @@
 			isa = PBXGroup;
 			children = (
 				DE565C9D23EA94F300423707 /* HttpClientExampleTest.swift */,
+				DE412FD623EAC067001EE75C /* HttpJsonExampleTest.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -862,7 +873,9 @@
 				DEA79A122296861400468823 /* NumberToBinary.swift in Sources */,
 				DE1D6B02229D2C5C0084183F /* Phone.swift in Sources */,
 				DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */,
+				DE412FD123EABF4E001EE75C /* HttpJsonFormat.swift in Sources */,
 				DE1D6AFF229D2C270084183F /* Dog.swift in Sources */,
+				DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DEA79A082296497500468823 /* SingleNumber.swift in Sources */,
 				DE82045C23065A7600A2B3C8 /* Person.swift in Sources */,
@@ -916,6 +929,7 @@
 				DE014D9C2298FB4800578BB1 /* TopKElementsTest.swift in Sources */,
 				DE9ED2B0229C608500C3D72B /* StringPractices.swift in Sources */,
 				DE5F6F1E22EC1289005DF8D0 /* CharacterExpansionTest.swift in Sources */,
+				DE412FD223EABF4E001EE75C /* HttpJsonFormat.swift in Sources */,
 				DE565C9B23EA94C100423707 /* HttpClientExample.swift in Sources */,
 				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
 				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
@@ -939,6 +953,7 @@
 				DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE014DCA229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */,
 				DE014D942298F57000578BB1 /* RepeatTwoNArrayTest.swift in Sources */,
+				DE412FD723EAC067001EE75C /* HttpJsonExampleTest.swift in Sources */,
 				DE1D6AF3229D09120084183F /* SortByMemberTest.swift in Sources */,
 				DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */,
 				DE014D992298F6A400578BB1 /* TopKElements.swift in Sources */,
@@ -951,6 +966,7 @@
 				DE1D6AF1229D069B0084183F /* SortByMember.swift in Sources */,
 				DEA79A152296880E00468823 /* NumberToBinary.swift in Sources */,
 				DE90057D222B8FE200458081 /* FizzBuzzTest.swift in Sources */,
+				DE412FD523EABF6E001EE75C /* HttpJsonExample.swift in Sources */,
 				DE570058229C9A7B0053F21A /* MergeSortedArrayTest.swift in Sources */,
 				DE900595222BA93600458081 /* FibonacciTest.swift in Sources */,
 				DE014DB72299421300578BB1 /* BSTPathSumTest.swift in Sources */,
