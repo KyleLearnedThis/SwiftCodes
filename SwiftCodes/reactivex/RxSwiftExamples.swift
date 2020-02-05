@@ -14,7 +14,7 @@ class RxSwiftExamples {
     static func basicArray001(_ array: [Int]) {
         let source = Observable.from(array)
         source.subscribe(onNext: { it in print("===== \(it) =====") })
-        .disposed(by: bag)
+            .disposed(by: bag)
     }
     
     static func flatmap001(_ inputString: String) {
@@ -23,8 +23,8 @@ class RxSwiftExamples {
             Observable.from(
                 $0.split(separator: "/").map {
                     return String($0)
-                })
-            }).filter({ Int($0) != nil })
+            })
+        }).filter({ Int($0) != nil })
             .subscribe(onNext: { it in print("===== \(it) =====") })
             .disposed(by: bag)
     }
@@ -36,8 +36,8 @@ class RxSwiftExamples {
             Observable.from(
                 $0.split(separator: "/").map {
                     return String($0)
-                })
-            }).filter({ Int($0) != nil })
+            })
+        }).filter({ Int($0) != nil })
             .subscribe(onNext: { it in print("===== \(it) =====") })
             .disposed(by: bag)
     }
@@ -74,4 +74,3 @@ class RxSwiftExamples {
             .disposed(by: bag)
     }
 }
-
