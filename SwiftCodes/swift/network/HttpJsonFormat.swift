@@ -13,7 +13,6 @@ enum HTTPError: LocalizedError {
 }
 
 struct Post: Codable {
-
     let id: Int
     let title: String
     let body: String
@@ -21,9 +20,39 @@ struct Post: Codable {
 }
 
 struct Todo: Codable {
-
     let id: Int
     let title: String
     let completed: Bool
     let userId: Int
+}
+
+struct PixabayImage: Codable {
+    let largeImageURL: String
+    let webformatHeight: Int
+    let webformatWidth: Int
+    let likes: Int
+    let imageWidth: Int
+    let id: Int
+    let user_id: Int
+    let views: Int
+    let comments: Int
+    let pageURL: String
+    let imageHeight: Int
+    let webformatURL: String
+    let type: String
+    let previewHeight: Int
+    let tags: String
+    let downloads: Int
+    let user: String
+    let favorites: Int
+    let imageSize: Int
+    let previewWidth: Int
+    let userImageURL: String
+    let previewURL: String
+}
+
+struct PixabayObject: Codable {
+    let totalHits: Int
+    let hits: [PixabayImage]
+    let total: Int
 }
