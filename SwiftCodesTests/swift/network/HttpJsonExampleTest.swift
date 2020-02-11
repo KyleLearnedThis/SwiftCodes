@@ -15,9 +15,11 @@ class HttpJsonExampleTest: XCTestCase {
         x.getJson(urlString: "https://jsonplaceholder.typicode.com/posts")
     }
     
+    //Replace [KEY] with your own Pixabay Key
     func testPixabayImageJson() {
         let x = HttpJsonExample()
-        let httpGetString = "https://pixabay.com/api/?key=[KEY]&q=Glacier&safesearch=true&per_page=5"
+        let key = "HELLO"
+        let httpGetString = "https://pixabay.com/api/?key=\(key)&q=Glacier&safesearch=true&per_page=5"
         let result: [PixabayImage] = x.getPixabayImages(urlString: httpGetString).hits
         print("===== \(result[0].tags) =====")
     }
