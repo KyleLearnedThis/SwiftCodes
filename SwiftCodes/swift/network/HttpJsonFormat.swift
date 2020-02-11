@@ -26,7 +26,7 @@ struct Todo: Codable {
     let userId: Int
 }
 
-struct PixabayImage: Codable {
+class PixabayImage: Codable {
     let largeImageURL: String
     let webformatHeight: Int
     let webformatWidth: Int
@@ -51,8 +51,13 @@ struct PixabayImage: Codable {
     let previewURL: String
 }
 
-struct PixabayObject: Codable {
+class PixabayObject: Codable {
     let totalHits: Int
     let hits: [PixabayImage]
     let total: Int
+    public init(totalHits: Int, hits: [PixabayImage], total: Int) {
+        self.totalHits = totalHits
+        self.hits = hits
+        self.total = total
+    }
 }
