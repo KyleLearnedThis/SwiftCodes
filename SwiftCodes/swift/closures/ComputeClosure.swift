@@ -21,4 +21,9 @@ class ComputeClosure {
         print("Hello, \(name)!")
         closure()
     }
+
+    func add(x: Int, y: Int, closure: ((Int, Int) -> Int)) -> Int {
+        let result = closure(x, y)
+        return result
+    }
 }

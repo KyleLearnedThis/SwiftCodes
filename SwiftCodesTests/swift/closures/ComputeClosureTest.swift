@@ -10,7 +10,7 @@ import XCTest
 
 class ComputeClosureTest: XCTestCase {
 
-    func testAdd() throws {
+    func testAdd() {
         let cc = ComputeClosure()
         cc.addOne(input: 1) { x in
             print("Step 1: input is \(x)")
@@ -20,4 +20,14 @@ class ComputeClosureTest: XCTestCase {
         XCTAssertEqual(cc.result, 2)
     }
 
+    func testAddBoth() {
+        let x = 1
+        let y = 2
+        let cc = ComputeClosure()
+        let result = cc.add(x: x, y: y) { x, y in
+            x + y
+        }
+        print("===== \(result) =====")
+        XCTAssertEqual(result, 3)
+    }
 }
