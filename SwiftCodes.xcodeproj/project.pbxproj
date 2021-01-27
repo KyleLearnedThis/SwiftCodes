@@ -136,6 +136,9 @@
 		DED02A9424A1EE4A009679E1 /* ComputeClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */; };
 		DED02A9524A1EE52009679E1 /* ComputeClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */; };
 		DED02A9724A1F04A009679E1 /* ComputeClosureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9624A1F04A009679E1 /* ComputeClosureTest.swift */; };
+		DEDEE1C625C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
+		DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
+		DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */; };
 		DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
 		DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */; };
 		DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */; };
@@ -276,6 +279,8 @@
 		DEB4ED9B2396603000129DBF /* RxSwiftExamplesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RxSwiftExamplesTest.swift; path = SwiftCodesTests/reactivex/RxSwiftExamplesTest.swift; sourceTree = SOURCE_ROOT; };
 		DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeClosure.swift; sourceTree = "<group>"; };
 		DED02A9624A1F04A009679E1 /* ComputeClosureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeClosureTest.swift; sourceTree = "<group>"; };
+		DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArray.swift; sourceTree = "<group>"; };
+		DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArrayTest.swift; sourceTree = "<group>"; };
 		DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTree.swift; sourceTree = "<group>"; };
 		DEFCBBD7223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedTreeTest.swift; sourceTree = "<group>"; };
 		DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMaxHeight.swift; sourceTree = "<group>"; };
@@ -644,6 +649,7 @@
 				DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */,
 				DE570054229C96C30053F21A /* MergeSortedArray.swift */,
 				DE578EB22423406E00610E9C /* ProductSumDifference.swift */,
+				DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -651,6 +657,7 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */,
 				DE578EB024233EB600610E9C /* EvenNumberDigitsTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DE5F6F0022E99517005DF8D0 /* DuplicateZerosTest.swift */,
@@ -858,7 +865,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = kylelearnedthis;
 				TargetAttributes = {
 					DE900550222B8E5600458081 = {
@@ -960,6 +967,7 @@
 				DE412FD123EABF4E001EE75C /* HttpJsonFormat.swift in Sources */,
 				DEAAF11223F3F32700537D56 /* BasicCombineExample.swift in Sources */,
 				DE578EAE24233E4E00610E9C /* EvenNumberDigits.swift in Sources */,
+				DEDEE1C625C18C7400C1E041 /* RunningSumArray.swift in Sources */,
 				DE1D6AFF229D2C270084183F /* Dog.swift in Sources */,
 				DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
@@ -1008,6 +1016,7 @@
 				DE82045D23065A7600A2B3C8 /* Person.swift in Sources */,
 				DE1D6B08229D2CE20084183F /* MakeSoundTest.swift in Sources */,
 				DE014DC1229A1AAA00578BB1 /* ListReverseTest.swift in Sources */,
+				DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */,
 				DE5F6F0922EA93F5005DF8D0 /* ReverseOnlyLettersTest.swift in Sources */,
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
@@ -1022,6 +1031,7 @@
 				DE5CEB4623ED34FB008C60CC /* EnvironmentFetchTest.swift in Sources */,
 				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
 				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
+				DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
 				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
 				DEB4ED9C2396603000129DBF /* RxSwiftExamplesTest.swift in Sources */,
@@ -1134,6 +1144,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1160,7 +1171,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1198,6 +1209,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1218,7 +1230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
