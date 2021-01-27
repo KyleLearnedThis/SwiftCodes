@@ -10,7 +10,7 @@ import XCTest
 class ConvertTypesTest: XCTestCase {
 
     func testBasic() {
-        _ = ConvertTypes.examples()
+        ConvertTypes.examples()
     }
 
 }
