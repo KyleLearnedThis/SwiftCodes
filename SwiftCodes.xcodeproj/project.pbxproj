@@ -37,6 +37,9 @@
 		DE014DC9229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */; };
 		DE014DCA229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */; };
 		DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DCC229A3B8100578BB1 /* ExtractNumberSumTest.swift */; };
+		DE017EA725C6C2110019F718 /* MoneyInLeetcodeBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE017EA625C6C2110019F718 /* MoneyInLeetcodeBank.swift */; };
+		DE017EA825C6C2110019F718 /* MoneyInLeetcodeBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE017EA625C6C2110019F718 /* MoneyInLeetcodeBank.swift */; };
+		DE017EAD25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */; };
 		DE05EB3E25C6AF5200D4C558 /* RankTransformArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */; };
 		DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */; };
 		DE05EB4625C6B03E00D4C558 /* RankTransformArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */; };
@@ -214,6 +217,8 @@
 		DE014DC0229A1AAA00578BB1 /* ListReverseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListReverseTest.swift; path = SwiftCodesTests/list/ListReverseTest.swift; sourceTree = SOURCE_ROOT; };
 		DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractNumberSum.swift; sourceTree = "<group>"; };
 		DE014DCC229A3B8100578BB1 /* ExtractNumberSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractNumberSumTest.swift; sourceTree = "<group>"; };
+		DE017EA625C6C2110019F718 /* MoneyInLeetcodeBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyInLeetcodeBank.swift; sourceTree = "<group>"; };
+		DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyInLeetcodeBankTest.swift; sourceTree = "<group>"; };
 		DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTransformArray.swift; sourceTree = "<group>"; };
 		DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTransformArrayTest.swift; sourceTree = "<group>"; };
 		DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryExample.swift; sourceTree = "<group>"; };
@@ -656,6 +661,7 @@
 				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
 				DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */,
 				DEA79A072296497500468823 /* SingleNumber.swift */,
+				DE017EA625C6C2110019F718 /* MoneyInLeetcodeBank.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -663,6 +669,7 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DE5F6F0022E99517005DF8D0 /* DuplicateZerosTest.swift */,
 				DE578EB024233EB600610E9C /* EvenNumberDigitsTest.swift */,
@@ -960,6 +967,7 @@
 			files = (
 				DE5F6EF522E94D53005DF8D0 /* IPDefanger.swift in Sources */,
 				DE014D812298DFC200578BB1 /* NumberOfJewelsInStones.swift in Sources */,
+				DE017EA725C6C2110019F718 /* MoneyInLeetcodeBank.swift in Sources */,
 				DE820456230543C800A2B3C8 /* MappingTransform.swift in Sources */,
 				DE570055229C96C30053F21A /* MergeSortedArray.swift in Sources */,
 				DE5F6F0D22EAA14D005DF8D0 /* HeightChecker.swift in Sources */,
@@ -1022,6 +1030,7 @@
 				DE570056229C96C30053F21A /* MergeSortedArray.swift in Sources */,
 				DE1D6B03229D2C5C0084183F /* Phone.swift in Sources */,
 				DE82045D23065A7600A2B3C8 /* Person.swift in Sources */,
+				DE017EA825C6C2110019F718 /* MoneyInLeetcodeBank.swift in Sources */,
 				DE1D6B08229D2CE20084183F /* MakeSoundTest.swift in Sources */,
 				DE014DC1229A1AAA00578BB1 /* ListReverseTest.swift in Sources */,
 				DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */,
@@ -1038,6 +1047,7 @@
 				DE565C9B23EA94C100423707 /* HttpClientExample.swift in Sources */,
 				DE5CEB4623ED34FB008C60CC /* EnvironmentFetchTest.swift in Sources */,
 				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
+				DE017EAD25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift in Sources */,
 				DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
 				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
 				DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */,
