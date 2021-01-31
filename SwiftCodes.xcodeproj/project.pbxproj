@@ -37,6 +37,9 @@
 		DE014DC9229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */; };
 		DE014DCA229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */; };
 		DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE014DCC229A3B8100578BB1 /* ExtractNumberSumTest.swift */; };
+		DE05EB3E25C6AF5200D4C558 /* RankTransformArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */; };
+		DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */; };
+		DE05EB4625C6B03E00D4C558 /* RankTransformArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */; };
 		DE1D6ADE229CF2810084183F /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */; };
 		DE1D6ADF229CF2810084183F /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */; };
 		DE1D6AE2229CF4E00084183F /* OrderedDictionaryExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AE1229CF4E00084183F /* OrderedDictionaryExampleTest.swift */; };
@@ -211,6 +214,8 @@
 		DE014DC0229A1AAA00578BB1 /* ListReverseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListReverseTest.swift; path = SwiftCodesTests/list/ListReverseTest.swift; sourceTree = SOURCE_ROOT; };
 		DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractNumberSum.swift; sourceTree = "<group>"; };
 		DE014DCC229A3B8100578BB1 /* ExtractNumberSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractNumberSumTest.swift; sourceTree = "<group>"; };
+		DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTransformArray.swift; sourceTree = "<group>"; };
+		DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTransformArrayTest.swift; sourceTree = "<group>"; };
 		DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryExample.swift; sourceTree = "<group>"; };
 		DE1D6AE1229CF4E00084183F /* OrderedDictionaryExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderedDictionaryExampleTest.swift; path = SwiftCodesTests/swift/collections/OrderedDictionaryExampleTest.swift; sourceTree = SOURCE_ROOT; };
 		DE1D6AE4229D04470084183F /* ConvertTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTypes.swift; sourceTree = "<group>"; };
@@ -644,12 +649,13 @@
 				DE5F6EFC22E994CA005DF8D0 /* DuplicateZeros.swift */,
 				DE578EAD24233E4E00610E9C /* EvenNumberDigits.swift */,
 				DE5F6F0C22EAA14C005DF8D0 /* HeightChecker.swift */,
-				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
-				DEA79A072296497500468823 /* SingleNumber.swift */,
 				DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */,
 				DE570054229C96C30053F21A /* MergeSortedArray.swift */,
 				DE578EB22423406E00610E9C /* ProductSumDifference.swift */,
+				DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */,
+				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
 				DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */,
+				DEA79A072296497500468823 /* SingleNumber.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -657,15 +663,16 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
-				DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */,
-				DE578EB024233EB600610E9C /* EvenNumberDigitsTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DE5F6F0022E99517005DF8D0 /* DuplicateZerosTest.swift */,
+				DE578EB024233EB600610E9C /* EvenNumberDigitsTest.swift */,
 				DE5F6F1022EAA1FB005DF8D0 /* HeightCheckerTest.swift */,
 				DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */,
 				DE570057229C9A7B0053F21A /* MergeSortedArrayTest.swift */,
 				DE578EB52423421200610E9C /* ProductSumDifferenceTest.swift */,
+				DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */,
 				DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */,
+				DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */,
 				DEA79A0A229649B400468823 /* SingleNumberTest.swift */,
 			);
 			path = numbers;
@@ -967,6 +974,7 @@
 				DE412FD123EABF4E001EE75C /* HttpJsonFormat.swift in Sources */,
 				DEAAF11223F3F32700537D56 /* BasicCombineExample.swift in Sources */,
 				DE578EAE24233E4E00610E9C /* EvenNumberDigits.swift in Sources */,
+				DE05EB3E25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
 				DEDEE1C625C18C7400C1E041 /* RunningSumArray.swift in Sources */,
 				DE1D6AFF229D2C270084183F /* Dog.swift in Sources */,
 				DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */,
@@ -1030,6 +1038,7 @@
 				DE565C9B23EA94C100423707 /* HttpClientExample.swift in Sources */,
 				DE5CEB4623ED34FB008C60CC /* EnvironmentFetchTest.swift in Sources */,
 				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
+				DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
 				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
 				DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
@@ -1090,6 +1099,7 @@
 				DE74E189230A871400C2A53E /* Pair.swift in Sources */,
 				DEAAF11323F3F32700537D56 /* BasicCombineExample.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
+				DE05EB4625C6B03E00D4C558 /* RankTransformArrayTest.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */,
 				DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */,
