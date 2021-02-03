@@ -43,6 +43,9 @@
 		DE05EB3E25C6AF5200D4C558 /* RankTransformArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */; };
 		DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */; };
 		DE05EB4625C6B03E00D4C558 /* RankTransformArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */; };
+		DE06034325C953520080F02E /* MergeTwoBSTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06034225C953520080F02E /* MergeTwoBSTTest.swift */; };
+		DE14F8F525C94A740048DA2E /* MergeTwoBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14F8F425C94A740048DA2E /* MergeTwoBST.swift */; };
+		DE14F8F625C94A740048DA2E /* MergeTwoBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14F8F425C94A740048DA2E /* MergeTwoBST.swift */; };
 		DE1D6ADE229CF2810084183F /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */; };
 		DE1D6ADF229CF2810084183F /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */; };
 		DE1D6AE2229CF4E00084183F /* OrderedDictionaryExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6AE1229CF4E00084183F /* OrderedDictionaryExampleTest.swift */; };
@@ -227,6 +230,8 @@
 		DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyInLeetcodeBankTest.swift; sourceTree = "<group>"; };
 		DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTransformArray.swift; sourceTree = "<group>"; };
 		DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTransformArrayTest.swift; sourceTree = "<group>"; };
+		DE06034225C953520080F02E /* MergeTwoBSTTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoBSTTest.swift; sourceTree = "<group>"; };
+		DE14F8F425C94A740048DA2E /* MergeTwoBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoBST.swift; sourceTree = "<group>"; };
 		DE1D6ADD229CF2810084183F /* OrderedDictionaryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryExample.swift; sourceTree = "<group>"; };
 		DE1D6AE1229CF4E00084183F /* OrderedDictionaryExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OrderedDictionaryExampleTest.swift; path = SwiftCodesTests/swift/collections/OrderedDictionaryExampleTest.swift; sourceTree = SOURCE_ROOT; };
 		DE1D6AE4229D04470084183F /* ConvertTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTypes.swift; sourceTree = "<group>"; };
@@ -771,6 +776,7 @@
 				DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */,
 				DE014DB222993BC600578BB1 /* BSTPathSum.swift */,
 				DEFCBBD3223E1A0D00CBBAC6 /* HeightBalancedTree.swift */,
+				DE14F8F425C94A740048DA2E /* MergeTwoBST.swift */,
 			);
 			path = bst;
 			sourceTree = "<group>";
@@ -778,6 +784,7 @@
 		DEFCBBE8223F601600CBBAC6 /* bst */ = {
 			isa = PBXGroup;
 			children = (
+				DE06034225C953520080F02E /* MergeTwoBSTTest.swift */,
 				DE014DB62299421300578BB1 /* BSTPathSumTest.swift */,
 				DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */,
 				DEFCBBE9223F623400CBBAC6 /* BSTInversionTest.swift */,
@@ -1004,6 +1011,7 @@
 				DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DEA79A082296497500468823 /* SingleNumber.swift in Sources */,
+				DE14F8F525C94A740048DA2E /* MergeTwoBST.swift in Sources */,
 				DE82045C23065A7600A2B3C8 /* Person.swift in Sources */,
 				DE5F6F1B22EC0DEE005DF8D0 /* CharacterExpansion.swift in Sources */,
 				DE1D6AF0229D069B0084183F /* SortByMember.swift in Sources */,
@@ -1056,6 +1064,7 @@
 				DE900583222B906500458081 /* AirportRouteTest.swift in Sources */,
 				DE014DA222990B6200578BB1 /* ValidParentheses.swift in Sources */,
 				DEF6BDFB25C7F949004ACDF5 /* StringArraysEquivalentTest.swift in Sources */,
+				DE14F8F625C94A740048DA2E /* MergeTwoBST.swift in Sources */,
 				DE565C9E23EA94F300423707 /* HttpClientExampleTest.swift in Sources */,
 				DE014D9C2298FB4800578BB1 /* TopKElementsTest.swift in Sources */,
 				DE9ED2B0229C608500C3D72B /* StringPractices.swift in Sources */,
@@ -1139,6 +1148,7 @@
 				DEF6BDF625C7F913004ACDF5 /* StringArraysEquivalent.swift in Sources */,
 				DEB4ED9923965D4800129DBF /* RxSwiftExamples.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
+				DE06034325C953520080F02E /* MergeTwoBSTTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
