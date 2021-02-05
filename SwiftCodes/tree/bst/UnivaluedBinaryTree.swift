@@ -16,7 +16,6 @@ class UnivaluedBinaryTree<T: Comparable> {
     }
 
     func isUnivalueTreeRecursion(_ root: TreeNode<T>?) -> Bool {
-        list = [T]()
         dfs(node: root)
 
         for i in list.indices {
