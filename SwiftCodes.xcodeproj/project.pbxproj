@@ -160,6 +160,9 @@
 		DED0A06925DA6B95007A42B3 /* DuplicateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */; };
 		DED0A06A25DA6B95007A42B3 /* DuplicateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */; };
 		DED0A06F25DA6C17007A42B3 /* DuplicateNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A06E25DA6C17007A42B3 /* DuplicateNumberTest.swift */; };
+		DED0A07925DA782D007A42B3 /* BinarySearchArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */; };
+		DED0A07D25DA7835007A42B3 /* BinarySearchArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */; };
+		DED0A08525DA7A58007A42B3 /* BinarySearchArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */; };
 		DEDEE1C625C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
 		DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
 		DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */; };
@@ -325,6 +328,8 @@
 		DED02A9624A1F04A009679E1 /* ComputeClosureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeClosureTest.swift; sourceTree = "<group>"; };
 		DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateNumber.swift; sourceTree = "<group>"; };
 		DED0A06E25DA6C17007A42B3 /* DuplicateNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateNumberTest.swift; sourceTree = "<group>"; };
+		DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchArray.swift; sourceTree = "<group>"; };
+		DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchArrayTest.swift; sourceTree = "<group>"; };
 		DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArray.swift; sourceTree = "<group>"; };
 		DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArrayTest.swift; sourceTree = "<group>"; };
 		DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealth.swift; sourceTree = "<group>"; };
@@ -696,6 +701,7 @@
 		DEA79A042296493600468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */,
 				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
 				DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */,
 				DE5F6EFC22E994CA005DF8D0 /* DuplicateZeros.swift */,
@@ -717,6 +723,7 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DED0A06E25DA6C17007A42B3 /* DuplicateNumberTest.swift */,
 				DE5F6F0022E99517005DF8D0 /* DuplicateZerosTest.swift */,
@@ -1065,6 +1072,7 @@
 				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
 				DE014DA822991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
 				DE014D902298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
+				DED0A07925DA782D007A42B3 /* BinarySearchArray.swift in Sources */,
 				DE5F6EFD22E994CA005DF8D0 /* DuplicateZeros.swift in Sources */,
 				DE74E188230A871400C2A53E /* Pair.swift in Sources */,
 				DED02A9424A1EE4A009679E1 /* ComputeClosure.swift in Sources */,
@@ -1161,6 +1169,7 @@
 				DE0603B025D3EED50080F02E /* StockTrading.swift in Sources */,
 				DE90057D222B8FE200458081 /* FizzBuzzTest.swift in Sources */,
 				DED02A9724A1F04A009679E1 /* ComputeClosureTest.swift in Sources */,
+				DED0A07D25DA7835007A42B3 /* BinarySearchArray.swift in Sources */,
 				DE412FD523EABF6E001EE75C /* HttpJsonExample.swift in Sources */,
 				DE578EB124233EB600610E9C /* EvenNumberDigitsTest.swift in Sources */,
 				DE570058229C9A7B0053F21A /* MergeSortedArrayTest.swift in Sources */,
@@ -1186,6 +1195,7 @@
 				DEAAF11323F3F32700537D56 /* BasicCombineExample.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE05EB4625C6B03E00D4C558 /* RankTransformArrayTest.swift in Sources */,
+				DED0A08525DA7A58007A42B3 /* BinarySearchArrayTest.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */,
 				DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */,
