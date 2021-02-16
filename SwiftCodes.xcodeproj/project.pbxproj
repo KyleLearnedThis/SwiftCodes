@@ -163,6 +163,9 @@
 		DED0A07925DA782D007A42B3 /* BinarySearchArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */; };
 		DED0A07D25DA7835007A42B3 /* BinarySearchArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */; };
 		DED0A08525DA7A58007A42B3 /* BinarySearchArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */; };
+		DED0A08F25DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A08E25DB9FCC007A42B3 /* CharacterCaseConversion.swift */; };
+		DED0A09025DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A08E25DB9FCC007A42B3 /* CharacterCaseConversion.swift */; };
+		DED0A09525DBA073007A42B3 /* CharacterCaseConversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0A09425DBA073007A42B3 /* CharacterCaseConversionTest.swift */; };
 		DEDEE1C625C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
 		DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
 		DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */; };
@@ -330,6 +333,8 @@
 		DED0A06E25DA6C17007A42B3 /* DuplicateNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateNumberTest.swift; sourceTree = "<group>"; };
 		DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchArray.swift; sourceTree = "<group>"; };
 		DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchArrayTest.swift; sourceTree = "<group>"; };
+		DED0A08E25DB9FCC007A42B3 /* CharacterCaseConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCaseConversion.swift; sourceTree = "<group>"; };
+		DED0A09425DBA073007A42B3 /* CharacterCaseConversionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCaseConversionTest.swift; sourceTree = "<group>"; };
 		DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArray.swift; sourceTree = "<group>"; };
 		DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArrayTest.swift; sourceTree = "<group>"; };
 		DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealth.swift; sourceTree = "<group>"; };
@@ -391,6 +396,7 @@
 		DE014D7D2298DF7B00578BB1 /* texts */ = {
 			isa = PBXGroup;
 			children = (
+				DED0A08E25DB9FCC007A42B3 /* CharacterCaseConversion.swift */,
 				DE5F6F1A22EC0DEE005DF8D0 /* CharacterExpansion.swift */,
 				DE014DC8229A3B3200578BB1 /* ExtractNumberSum.swift */,
 				DE5F6EF422E94D53005DF8D0 /* IPDefanger.swift */,
@@ -405,6 +411,7 @@
 		DE014D7F2298DF8A00578BB1 /* texts */ = {
 			isa = PBXGroup;
 			children = (
+				DED0A09425DBA073007A42B3 /* CharacterCaseConversionTest.swift */,
 				DE5F6F1D22EC1289005DF8D0 /* CharacterExpansionTest.swift */,
 				DE014DCC229A3B8100578BB1 /* ExtractNumberSumTest.swift */,
 				DE5F6EF822E95D9C005DF8D0 /* IPDefangerTest.swift */,
@@ -1041,6 +1048,7 @@
 				DE578EB32423406E00610E9C /* ProductSumDifference.swift in Sources */,
 				DEB4ED9823965D4800129DBF /* RxSwiftExamples.swift in Sources */,
 				DE5F6EED22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */,
+				DED0A08F25DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */,
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DEA79A122296861400468823 /* NumberToBinary.swift in Sources */,
 				DE1D6B02229D2C5C0084183F /* Phone.swift in Sources */,
@@ -1127,6 +1135,7 @@
 				DE017EAD25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift in Sources */,
 				DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
 				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
+				DED0A09025DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */,
 				DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
 				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
@@ -1195,6 +1204,7 @@
 				DEAAF11323F3F32700537D56 /* BasicCombineExample.swift in Sources */,
 				DEFCBBD5223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE05EB4625C6B03E00D4C558 /* RankTransformArrayTest.swift in Sources */,
+				DED0A09525DBA073007A42B3 /* CharacterCaseConversionTest.swift in Sources */,
 				DED0A08525DA7A58007A42B3 /* BinarySearchArrayTest.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */,
