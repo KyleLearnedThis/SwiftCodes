@@ -172,6 +172,9 @@
 		DEDEE1C625C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
 		DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */; };
 		DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */; };
+		DEE865C725DCF9690043B338 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE865C625DCF9690043B338 /* RelativeSortArray.swift */; };
+		DEE865C825DCF9690043B338 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE865C625DCF9690043B338 /* RelativeSortArray.swift */; };
+		DEE865CF25DCFC360043B338 /* RelativeSortArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE865CE25DCFC360043B338 /* RelativeSortArrayTest.swift */; };
 		DEF6BDE425C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */; };
 		DEF6BDE525C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */; };
 		DEF6BDEB25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDEA25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift */; };
@@ -342,6 +345,8 @@
 		DED0A14625DC7A36007A42B3 /* DestinationCityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DestinationCityTest.swift; path = SwiftCodesTests/graph/DestinationCityTest.swift; sourceTree = SOURCE_ROOT; };
 		DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArray.swift; sourceTree = "<group>"; };
 		DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumArrayTest.swift; sourceTree = "<group>"; };
+		DEE865C625DCF9690043B338 /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
+		DEE865CE25DCFC360043B338 /* RelativeSortArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArrayTest.swift; sourceTree = "<group>"; };
 		DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealth.swift; sourceTree = "<group>"; };
 		DEF6BDEA25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealthTest.swift; sourceTree = "<group>"; };
 		DEF6BDF425C7F913004ACDF5 /* StringArraysEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringArraysEquivalent.swift; sourceTree = "<group>"; };
@@ -726,6 +731,7 @@
 				DE017EA625C6C2110019F718 /* MoneyInLeetcodeBank.swift */,
 				DE578EB22423406E00610E9C /* ProductSumDifference.swift */,
 				DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */,
+				DEE865C625DCF9690043B338 /* RelativeSortArray.swift */,
 				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
 				DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */,
 				DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */,
@@ -748,6 +754,7 @@
 				DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */,
 				DE578EB52423421200610E9C /* ProductSumDifferenceTest.swift */,
 				DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */,
+				DEE865CE25DCFC360043B338 /* RelativeSortArrayTest.swift */,
 				DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */,
 				DEF6BDEA25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift */,
 				DEDEE1D325C18D4A00C1E041 /* RunningSumArrayTest.swift */,
@@ -1090,6 +1097,7 @@
 				DE82045C23065A7600A2B3C8 /* Person.swift in Sources */,
 				DE5F6F1B22EC0DEE005DF8D0 /* CharacterExpansion.swift in Sources */,
 				DE1D6AF0229D069B0084183F /* SortByMember.swift in Sources */,
+				DEE865C725DCF9690043B338 /* RelativeSortArray.swift in Sources */,
 				DE1D6B05229D2C8F0084183F /* Cat.swift in Sources */,
 				DE007959223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DE9ED2AF229C608500C3D72B /* StringPractices.swift in Sources */,
@@ -1159,6 +1167,7 @@
 				DE0603BB25D3F1120080F02E /* StockTradingTest.swift in Sources */,
 				DE017EAD25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift in Sources */,
 				DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
+				DEE865C825DCF9690043B338 /* RelativeSortArray.swift in Sources */,
 				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
 				DED0A09025DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */,
 				DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */,
@@ -1167,6 +1176,7 @@
 				DEB4ED9C2396603000129DBF /* RxSwiftExamplesTest.swift in Sources */,
 				DE578EB62423421300610E9C /* ProductSumDifferenceTest.swift in Sources */,
 				DE1D6B00229D2C270084183F /* Dog.swift in Sources */,
+				DEE865CF25DCFC360043B338 /* RelativeSortArrayTest.swift in Sources */,
 				DE578EAF24233E4E00610E9C /* EvenNumberDigits.swift in Sources */,
 				DEFCBC022241A44800CBBAC6 /* FileOpener.swift in Sources */,
 				DEA79A14229687B400468823 /* NumberToBinaryTest.swift in Sources */,
