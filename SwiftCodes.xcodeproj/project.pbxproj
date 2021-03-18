@@ -181,6 +181,9 @@
 		DEE865C725DCF9690043B338 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE865C625DCF9690043B338 /* RelativeSortArray.swift */; };
 		DEE865C825DCF9690043B338 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE865C625DCF9690043B338 /* RelativeSortArray.swift */; };
 		DEE865CF25DCFC360043B338 /* RelativeSortArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE865CE25DCFC360043B338 /* RelativeSortArrayTest.swift */; };
+		DEEB9A52260405A20007DA8A /* PerfectNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB9A51260405A20007DA8A /* PerfectNumber.swift */; };
+		DEEB9A53260405A20007DA8A /* PerfectNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB9A51260405A20007DA8A /* PerfectNumber.swift */; };
+		DEEB9A59260408C00007DA8A /* PerfectNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB9A58260408C00007DA8A /* PerfectNumberTest.swift */; };
 		DEF6BDE425C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */; };
 		DEF6BDE525C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */; };
 		DEF6BDEB25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDEA25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift */; };
@@ -357,6 +360,8 @@
 		DEE5EFB225DE6BCC003AF5C8 /* MoveZeroesInArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroesInArrayTest.swift; sourceTree = "<group>"; };
 		DEE865C625DCF9690043B338 /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		DEE865CE25DCFC360043B338 /* RelativeSortArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArrayTest.swift; sourceTree = "<group>"; };
+		DEEB9A51260405A20007DA8A /* PerfectNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectNumber.swift; sourceTree = "<group>"; };
+		DEEB9A58260408C00007DA8A /* PerfectNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectNumberTest.swift; sourceTree = "<group>"; };
 		DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealth.swift; sourceTree = "<group>"; };
 		DEF6BDEA25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealthTest.swift; sourceTree = "<group>"; };
 		DEF6BDF425C7F913004ACDF5 /* StringArraysEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringArraysEquivalent.swift; sourceTree = "<group>"; };
@@ -742,6 +747,7 @@
 				DE570054229C96C30053F21A /* MergeSortedArray.swift */,
 				DE017EA625C6C2110019F718 /* MoneyInLeetcodeBank.swift */,
 				DEE5EFA825DE6A80003AF5C8 /* MoveZeroesInArray.swift */,
+				DEEB9A51260405A20007DA8A /* PerfectNumber.swift */,
 				DE578EB22423406E00610E9C /* ProductSumDifference.swift */,
 				DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */,
 				DEE865C625DCF9690043B338 /* RelativeSortArray.swift */,
@@ -756,7 +762,7 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
-				DEE5EFB225DE6BCC003AF5C8 /* MoveZeroesInArrayTest.swift */,
+				DEEB9A58260408C00007DA8A /* PerfectNumberTest.swift */,
 				DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DED0A06E25DA6C17007A42B3 /* DuplicateNumberTest.swift */,
@@ -766,6 +772,7 @@
 				DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */,
 				DE570057229C9A7B0053F21A /* MergeSortedArrayTest.swift */,
 				DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */,
+				DEE5EFB225DE6BCC003AF5C8 /* MoveZeroesInArrayTest.swift */,
 				DE578EB52423421200610E9C /* ProductSumDifferenceTest.swift */,
 				DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */,
 				DEE865CE25DCFC360043B338 /* RelativeSortArrayTest.swift */,
@@ -1129,6 +1136,7 @@
 				DE5F6EFD22E994CA005DF8D0 /* DuplicateZeros.swift in Sources */,
 				DE6698A325EF8A5500A53AB9 /* RestoreString.swift in Sources */,
 				DE74E188230A871400C2A53E /* Pair.swift in Sources */,
+				DEEB9A52260405A20007DA8A /* PerfectNumber.swift in Sources */,
 				DED02A9424A1EE4A009679E1 /* ComputeClosure.swift in Sources */,
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
@@ -1155,6 +1163,7 @@
 				DE820457230543C800A2B3C8 /* MappingTransform.swift in Sources */,
 				DE1D6AEE229D04DC0084183F /* ConvertTypesTest.swift in Sources */,
 				DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */,
+				DEEB9A59260408C00007DA8A /* PerfectNumberTest.swift in Sources */,
 				DED0A10325DC73BE007A42B3 /* DestinationCity.swift in Sources */,
 				DE570056229C96C30053F21A /* MergeSortedArray.swift in Sources */,
 				DE1D6B03229D2C5C0084183F /* Phone.swift in Sources */,
@@ -1214,6 +1223,7 @@
 				DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */,
 				DE014DCA229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */,
 				DED0A06F25DA6C17007A42B3 /* DuplicateNumberTest.swift in Sources */,
+				DEEB9A53260405A20007DA8A /* PerfectNumber.swift in Sources */,
 				DE6698A425EF8A5500A53AB9 /* RestoreString.swift in Sources */,
 				DE014D942298F57000578BB1 /* RepeatTwoNArrayTest.swift in Sources */,
 				DE412FD723EAC067001EE75C /* HttpJsonExampleTest.swift in Sources */,
