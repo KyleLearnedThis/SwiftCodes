@@ -157,6 +157,9 @@
 		DEB4ED9823965D4800129DBF /* RxSwiftExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */; };
 		DEB4ED9923965D4800129DBF /* RxSwiftExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */; };
 		DEB4ED9C2396603000129DBF /* RxSwiftExamplesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9B2396603000129DBF /* RxSwiftExamplesTest.swift */; };
+		DEC725D4260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */; };
+		DEC725D5260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */; };
+		DEC725DA260B407C0024FC86 /* ArrayLuckyNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC725D9260B407C0024FC86 /* ArrayLuckyNumberTest.swift */; };
 		DED02A9424A1EE4A009679E1 /* ComputeClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */; };
 		DED02A9524A1EE52009679E1 /* ComputeClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */; };
 		DED02A9724A1F04A009679E1 /* ComputeClosureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9624A1F04A009679E1 /* ComputeClosureTest.swift */; };
@@ -344,6 +347,8 @@
 		DEAAF11523F3F5CE00537D56 /* BasicCombineExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasicCombineExampleTest.swift; path = SwiftCodesTests/classics/BasicCombineExampleTest.swift; sourceTree = SOURCE_ROOT; };
 		DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExamples.swift; sourceTree = "<group>"; };
 		DEB4ED9B2396603000129DBF /* RxSwiftExamplesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RxSwiftExamplesTest.swift; path = SwiftCodesTests/reactivex/RxSwiftExamplesTest.swift; sourceTree = SOURCE_ROOT; };
+		DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayLuckyNumber.swift; sourceTree = "<group>"; };
+		DEC725D9260B407C0024FC86 /* ArrayLuckyNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayLuckyNumberTest.swift; sourceTree = "<group>"; };
 		DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeClosure.swift; sourceTree = "<group>"; };
 		DED02A9624A1F04A009679E1 /* ComputeClosureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeClosureTest.swift; sourceTree = "<group>"; };
 		DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateNumber.swift; sourceTree = "<group>"; };
@@ -737,6 +742,7 @@
 		DEA79A042296493600468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */,
 				DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */,
 				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
 				DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */,
@@ -762,6 +768,7 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DEC725D9260B407C0024FC86 /* ArrayLuckyNumberTest.swift */,
 				DEEB9A58260408C00007DA8A /* PerfectNumberTest.swift */,
 				DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
@@ -1106,6 +1113,7 @@
 				DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */,
 				DE412FD123EABF4E001EE75C /* HttpJsonFormat.swift in Sources */,
 				DEF6BDE425C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */,
+				DEC725D4260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */,
 				DEAAF11223F3F32700537D56 /* BasicCombineExample.swift in Sources */,
 				DE578EAE24233E4E00610E9C /* EvenNumberDigits.swift in Sources */,
 				DE05EB3E25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
@@ -1164,6 +1172,7 @@
 				DE1D6AEE229D04DC0084183F /* ConvertTypesTest.swift in Sources */,
 				DE014DAC229929AE00578BB1 /* LongestCommonPrefixTest.swift in Sources */,
 				DEEB9A59260408C00007DA8A /* PerfectNumberTest.swift in Sources */,
+				DEC725DA260B407C0024FC86 /* ArrayLuckyNumberTest.swift in Sources */,
 				DED0A10325DC73BE007A42B3 /* DestinationCity.swift in Sources */,
 				DE570056229C96C30053F21A /* MergeSortedArray.swift in Sources */,
 				DE1D6B03229D2C5C0084183F /* Phone.swift in Sources */,
@@ -1232,6 +1241,7 @@
 				DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */,
 				DE014D992298F6A400578BB1 /* TopKElements.swift in Sources */,
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
+				DEC725D5260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */,
 				DEFCBC012241A3DF00CBBAC6 /* FileOpenerTest.swift in Sources */,
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
 				DE9ED2B5229C619A00C3D72B /* StringPracticesTest.swift in Sources */,
