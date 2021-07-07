@@ -153,6 +153,9 @@
 		DEAAF11223F3F32700537D56 /* BasicCombineExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAAF11123F3F32700537D56 /* BasicCombineExample.swift */; };
 		DEAAF11323F3F32700537D56 /* BasicCombineExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAAF11123F3F32700537D56 /* BasicCombineExample.swift */; };
 		DEAAF11623F3F5CE00537D56 /* BasicCombineExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAAF11523F3F5CE00537D56 /* BasicCombineExampleTest.swift */; };
+		DEB12CC12695A1EA00421353 /* BusyStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12CC02695A1EA00421353 /* BusyStudent.swift */; };
+		DEB12CC22695A1EA00421353 /* BusyStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12CC02695A1EA00421353 /* BusyStudent.swift */; };
+		DEB12CC52695A23700421353 /* BusyStudentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12CC42695A23700421353 /* BusyStudentTest.swift */; };
 		DEB4ED9123965CA600129DBF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DEB4ED9023965CA600129DBF /* RxSwift */; };
 		DEB4ED9823965D4800129DBF /* RxSwiftExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */; };
 		DEB4ED9923965D4800129DBF /* RxSwiftExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */; };
@@ -348,6 +351,8 @@
 		DEA79A13229687B400468823 /* NumberToBinaryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NumberToBinaryTest.swift; path = SwiftCodesTests/bits/NumberToBinaryTest.swift; sourceTree = SOURCE_ROOT; };
 		DEAAF11123F3F32700537D56 /* BasicCombineExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCombineExample.swift; sourceTree = "<group>"; };
 		DEAAF11523F3F5CE00537D56 /* BasicCombineExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasicCombineExampleTest.swift; path = SwiftCodesTests/classics/BasicCombineExampleTest.swift; sourceTree = SOURCE_ROOT; };
+		DEB12CC02695A1EA00421353 /* BusyStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyStudent.swift; sourceTree = "<group>"; };
+		DEB12CC42695A23700421353 /* BusyStudentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyStudentTest.swift; sourceTree = "<group>"; };
 		DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExamples.swift; sourceTree = "<group>"; };
 		DEB4ED9B2396603000129DBF /* RxSwiftExamplesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RxSwiftExamplesTest.swift; path = SwiftCodesTests/reactivex/RxSwiftExamplesTest.swift; sourceTree = SOURCE_ROOT; };
 		DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayLuckyNumber.swift; sourceTree = "<group>"; };
@@ -751,6 +756,7 @@
 			children = (
 				DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */,
 				DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */,
+				DEB12CC02695A1EA00421353 /* BusyStudent.swift */,
 				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
 				DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */,
 				DE5F6EFC22E994CA005DF8D0 /* DuplicateZeros.swift */,
@@ -778,6 +784,7 @@
 				DEC725D9260B407C0024FC86 /* ArrayLuckyNumberTest.swift */,
 				DEEB9A58260408C00007DA8A /* PerfectNumberTest.swift */,
 				DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */,
+				DEB12CC42695A23700421353 /* BusyStudentTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
 				DED0A06E25DA6C17007A42B3 /* DuplicateNumberTest.swift */,
 				DE5F6F0022E99517005DF8D0 /* DuplicateZerosTest.swift */,
@@ -1173,6 +1180,7 @@
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
+				DEB12CC12695A1EA00421353 /* BusyStudent.swift in Sources */,
 				DE06035725CAAEE60080F02E /* UnivaluedBinaryTree.swift in Sources */,
 				DE014DB322993BC600578BB1 /* BSTPathSum.swift in Sources */,
 				DE1D6AE5229D04470084183F /* ConvertTypes.swift in Sources */,
@@ -1227,6 +1235,7 @@
 				DE017EAD25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift in Sources */,
 				DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
 				DEE865C825DCF9690043B338 /* RelativeSortArray.swift in Sources */,
+				DEB12CC22695A1EA00421353 /* BusyStudent.swift in Sources */,
 				DE5F6EF922E95D9C005DF8D0 /* IPDefangerTest.swift in Sources */,
 				DED0A09025DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */,
 				DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */,
@@ -1240,6 +1249,7 @@
 				DE578EAF24233E4E00610E9C /* EvenNumberDigits.swift in Sources */,
 				DEFCBC022241A44800CBBAC6 /* FileOpener.swift in Sources */,
 				DEA79A14229687B400468823 /* NumberToBinaryTest.swift in Sources */,
+				DEB12CC52695A23700421353 /* BusyStudentTest.swift in Sources */,
 				DE5F6F0622EA9334005DF8D0 /* ReverseOnlyLetters.swift in Sources */,
 				DE3BC6D6225886EC00867EED /* Regex.swift in Sources */,
 				DEEEDD8C263D4D56005B574B /* RansomNotesTest.swift in Sources */,
