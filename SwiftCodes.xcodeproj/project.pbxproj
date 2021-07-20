@@ -86,6 +86,9 @@
 		DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */; };
 		DE412FD523EABF6E001EE75C /* HttpJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */; };
 		DE412FD723EAC067001EE75C /* HttpJsonExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD623EAC067001EE75C /* HttpJsonExampleTest.swift */; };
+		DE51592826A77930002AD55F /* CountNegativeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51592726A77930002AD55F /* CountNegativeMatrix.swift */; };
+		DE51592926A77930002AD55F /* CountNegativeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51592726A77930002AD55F /* CountNegativeMatrix.swift */; };
+		DE51592C26A77A0D002AD55F /* CountNegativeMatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51592B26A77A0D002AD55F /* CountNegativeMatrixTest.swift */; };
 		DE565C9A23EA94C100423707 /* HttpClientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE565C9923EA94C100423707 /* HttpClientExample.swift */; };
 		DE565C9B23EA94C100423707 /* HttpClientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE565C9923EA94C100423707 /* HttpClientExample.swift */; };
 		DE565C9E23EA94F300423707 /* HttpClientExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE565C9D23EA94F300423707 /* HttpClientExampleTest.swift */; };
@@ -308,6 +311,8 @@
 		DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonFormat.swift; sourceTree = "<group>"; };
 		DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonExample.swift; sourceTree = "<group>"; };
 		DE412FD623EAC067001EE75C /* HttpJsonExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonExampleTest.swift; sourceTree = "<group>"; };
+		DE51592726A77930002AD55F /* CountNegativeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNegativeMatrix.swift; sourceTree = "<group>"; };
+		DE51592B26A77A0D002AD55F /* CountNegativeMatrixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountNegativeMatrixTest.swift; path = SwiftCodesTests/collections/CountNegativeMatrixTest.swift; sourceTree = SOURCE_ROOT; };
 		DE565C9923EA94C100423707 /* HttpClientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientExample.swift; sourceTree = "<group>"; };
 		DE565C9D23EA94F300423707 /* HttpClientExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpClientExampleTest.swift; path = SwiftCodesTests/classics/HttpClientExampleTest.swift; sourceTree = SOURCE_ROOT; };
 		DE570054229C96C30053F21A /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
@@ -901,6 +906,7 @@
 			isa = PBXGroup;
 			children = (
 				DEE0D39C26A5500F0084D8CB /* ArrayManipulations.swift */,
+				DE51592726A77930002AD55F /* CountNegativeMatrix.swift */,
 				DEEEDD80263B5E44005B574B /* RansomNotes.swift */,
 			);
 			path = collections;
@@ -910,6 +916,7 @@
 			isa = PBXGroup;
 			children = (
 				DEE0D3A026A551D70084D8CB /* ArrayManipulationsTest.swift */,
+				DE51592B26A77A0D002AD55F /* CountNegativeMatrixTest.swift */,
 				DEEEDD8B263D4D56005B574B /* RansomNotesTest.swift */,
 			);
 			path = collections;
@@ -1182,6 +1189,7 @@
 				DE3BC6D5225886EC00867EED /* Regex.swift in Sources */,
 				DE565C9A23EA94C100423707 /* HttpClientExample.swift in Sources */,
 				DE1D6AFC229D2C020084183F /* Sound.swift in Sources */,
+				DE51592826A77930002AD55F /* CountNegativeMatrix.swift in Sources */,
 				DE5CEB4223ED3411008C60CC /* EnvironmentFetch.swift in Sources */,
 				DE5F6F0522EA9334005DF8D0 /* ReverseOnlyLetters.swift in Sources */,
 				DEFCBBDC223F5D4500CBBAC6 /* BSTMaxHeight.swift in Sources */,
@@ -1270,6 +1278,7 @@
 				DE3BC6D6225886EC00867EED /* Regex.swift in Sources */,
 				DEEEDD8C263D4D56005B574B /* RansomNotesTest.swift in Sources */,
 				DE014DA922991B1800578BB1 /* LongestCommonPrefix.swift in Sources */,
+				DE51592926A77930002AD55F /* CountNegativeMatrix.swift in Sources */,
 				DE5F6F0E22EAA14D005DF8D0 /* HeightChecker.swift in Sources */,
 				DEFCBBE7223F600B00CBBAC6 /* BSTInversion.swift in Sources */,
 				DE5F6EF122E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift in Sources */,
@@ -1321,6 +1330,7 @@
 				DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */,
 				DE5F6EF622E94D53005DF8D0 /* IPDefanger.swift in Sources */,
 				DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */,
+				DE51592C26A77A0D002AD55F /* CountNegativeMatrixTest.swift in Sources */,
 				DE5F6EFE22E994CA005DF8D0 /* DuplicateZeros.swift in Sources */,
 				DE6698AB25EF8ACA00A53AB9 /* RestoreStringTest.swift in Sources */,
 				DE06035D25CAB3B90080F02E /* UnivaluedBinaryTreeTest.swift in Sources */,
