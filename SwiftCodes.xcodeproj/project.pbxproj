@@ -78,6 +78,9 @@
 		DE1D6B08229D2CE20084183F /* MakeSoundTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B07229D2CE20084183F /* MakeSoundTest.swift */; };
 		DE1D6B0A229D2DDC0084183F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B09229D2DDC0084183F /* Car.swift */; };
 		DE1D6B0B229D2DDC0084183F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D6B09229D2DDC0084183F /* Car.swift */; };
+		DE26B58D26B4BC280065C22C /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B58C26B4BC280065C22C /* Anagram.swift */; };
+		DE26B58E26B4BC280065C22C /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B58C26B4BC280065C22C /* Anagram.swift */; };
+		DE26B59126B4BDC30065C22C /* AnagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B59026B4BDC30065C22C /* AnagramTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -306,6 +309,8 @@
 		DE1D6B04229D2C8F0084183F /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		DE1D6B07229D2CE20084183F /* MakeSoundTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeSoundTest.swift; sourceTree = "<group>"; };
 		DE1D6B09229D2DDC0084183F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		DE26B58C26B4BC280065C22C /* Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
+		DE26B59026B4BDC30065C22C /* AnagramTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonFormat.swift; sourceTree = "<group>"; };
@@ -719,6 +724,7 @@
 			isa = PBXGroup;
 			children = (
 				DE900575222B8F9000458081 /* AirportRoute.swift */,
+				DE26B58C26B4BC280065C22C /* Anagram.swift */,
 				DE900574222B8F8F00458081 /* FizzBuzz.swift */,
 				DE014DA722991B1800578BB1 /* LongestCommonPrefix.swift */,
 				DE0603AE25D3EED50080F02E /* StockTrading.swift */,
@@ -733,6 +739,7 @@
 			isa = PBXGroup;
 			children = (
 				DE900582222B906500458081 /* AirportRouteTest.swift */,
+				DE26B59026B4BDC30065C22C /* AnagramTest.swift */,
 				DE90057C222B8FE200458081 /* FizzBuzzTest.swift */,
 				DE014DAB229929AE00578BB1 /* LongestCommonPrefixTest.swift */,
 				DE0603BA25D3F1120080F02E /* StockTradingTest.swift */,
@@ -1206,6 +1213,7 @@
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DEB12CC12695A1EA00421353 /* BusyStudent.swift in Sources */,
 				DE06035725CAAEE60080F02E /* UnivaluedBinaryTree.swift in Sources */,
+				DE26B58D26B4BC280065C22C /* Anagram.swift in Sources */,
 				DE014DB322993BC600578BB1 /* BSTPathSum.swift in Sources */,
 				DE1D6AE5229D04470084183F /* ConvertTypes.swift in Sources */,
 				DE014DBD229A157900578BB1 /* ListReverse.swift in Sources */,
@@ -1238,6 +1246,7 @@
 				DE1D6B08229D2CE20084183F /* MakeSoundTest.swift in Sources */,
 				DE014DC1229A1AAA00578BB1 /* ListReverseTest.swift in Sources */,
 				DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */,
+				DE26B58E26B4BC280065C22C /* Anagram.swift in Sources */,
 				DE5F6F0922EA93F5005DF8D0 /* ReverseOnlyLettersTest.swift in Sources */,
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE06038325CC14E00080F02E /* ThreeColorSorting.swift in Sources */,
@@ -1309,6 +1318,7 @@
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
 				DE9ED2B5229C619A00C3D72B /* StringPracticesTest.swift in Sources */,
 				DE1D6B0B229D2DDC0084183F /* Car.swift in Sources */,
+				DE26B59126B4BDC30065C22C /* AnagramTest.swift in Sources */,
 				DEA79A092296497500468823 /* SingleNumber.swift in Sources */,
 				DE1D6AF1229D069B0084183F /* SortByMember.swift in Sources */,
 				DEA79A152296880E00468823 /* NumberToBinary.swift in Sources */,
