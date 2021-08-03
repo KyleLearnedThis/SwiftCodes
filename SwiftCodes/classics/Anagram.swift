@@ -15,12 +15,8 @@ class Anagram {
 
     static func makeFrequencyDictionary(_ input: String) -> [Character: Int]{
         var result = [Character: Int]()
-        Array(input).forEach{
-            if let value = result[$0] {
-                result[$0] = value + 1
-            } else {
-                result[$0] = 1
-            }
+        Array(input).forEach{ i in
+            result[i] = result[i, default: 0] + 1
         }
         return result
     }
