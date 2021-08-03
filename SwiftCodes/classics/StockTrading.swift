@@ -9,7 +9,6 @@
 import Foundation
 
 class StockTrading {
-
     static func maxProfit(price: [Int]) -> Int {
         let n = price.count
         var cost = 0
@@ -26,7 +25,6 @@ class StockTrading {
             cost = price[i] - minimum
             maxCost = max(maxCost, cost)
         }
-
         return maxCost
     }
 }

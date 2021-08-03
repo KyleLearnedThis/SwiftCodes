@@ -9,13 +9,10 @@ import Foundation
 
 class EvenNumberDigits {
     static func findNumbers(_ nums: [Int]) -> Int {
-        var result = 0
-        for num in nums {
-            let digits = Array(String(num)).count
-            if digits % 2 == 0 {
-                result = result + 1
-            }
-        }
-        return result
+        let sum = nums.filter{Array(String($0))
+            .count % 2 == 0}
+            .map{_ in return 1}
+            .reduce(0,+)
+        return sum
     }
 }

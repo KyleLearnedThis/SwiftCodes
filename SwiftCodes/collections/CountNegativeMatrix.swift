@@ -13,7 +13,8 @@ class CountNegativeMatrix {
         var sum = 0
         for arr in grid {
             let temp = arr.filter{$0 < 0}
-                .map{_ in Int(1)}.reduce(0, +)
+                .map{_ in Int(1)}
+                .reduce(0, +)
             sum += temp
         }
         return sum

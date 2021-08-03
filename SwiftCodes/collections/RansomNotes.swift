@@ -37,13 +37,8 @@ class RansomNotes {
 
     static func makeFrequency(_ magazine: [String]) ->  [String: Int] {
         var freq: [String: Int] = [:]
-        for word in magazine {
-            if freq.keys.contains(word) {
-                let value = freq[word]!
-                freq[word] = value + 1
-            } else {
-                freq[word] = 1
-            }
+        magazine.forEach { word in
+            freq[word] = freq[word, default: 0] + 1
         }
         return freq
     }

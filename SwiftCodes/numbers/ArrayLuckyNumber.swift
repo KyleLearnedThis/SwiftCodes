@@ -22,14 +22,8 @@ class ArrayLuckyNumber {
 
     static func makeFrequencyDictionary(_ arr: [Int]) -> [Int:Int] {
         var dict = Dictionary<Int,Int>()
-        for num in arr {
-            var freq = 0
-            if let value = dict[num] {
-                freq = value + 1
-                dict[num] = freq
-            } else {
-                dict[num] = 1
-            }
+        arr.forEach{ num in
+            dict[num] = dict[num, default: 0] + 1
         }
         return dict
     }
