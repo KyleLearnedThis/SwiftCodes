@@ -84,6 +84,9 @@
 		DE26B59926B9E3A00065C22C /* DetectCyclicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B59826B9E3A00065C22C /* DetectCyclicList.swift */; };
 		DE26B59A26B9E3A00065C22C /* DetectCyclicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B59826B9E3A00065C22C /* DetectCyclicList.swift */; };
 		DE26B59C26B9E4E20065C22C /* DetectCyclicListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B59B26B9E4E20065C22C /* DetectCyclicListTest.swift */; };
+		DE26B5A026B9EA360065C22C /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B59F26B9EA360065C22C /* RandomNumber.swift */; };
+		DE26B5A126B9EA360065C22C /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B59F26B9EA360065C22C /* RandomNumber.swift */; };
+		DE26B5A426B9EAB40065C22C /* RandomNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26B5A326B9EAB40065C22C /* RandomNumberTest.swift */; };
 		DE3BC6D5225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D6225886EC00867EED /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D4225886EC00867EED /* Regex.swift */; };
 		DE3BC6D822588B0600867EED /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BC6D722588B0600867EED /* RegexTest.swift */; };
@@ -316,6 +319,8 @@
 		DE26B59026B4BDC30065C22C /* AnagramTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
 		DE26B59826B9E3A00065C22C /* DetectCyclicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCyclicList.swift; sourceTree = "<group>"; };
 		DE26B59B26B9E4E20065C22C /* DetectCyclicListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCyclicListTest.swift; sourceTree = "<group>"; };
+		DE26B59F26B9EA360065C22C /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		DE26B5A326B9EAB40065C22C /* RandomNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberTest.swift; sourceTree = "<group>"; };
 		DE3BC6D4225886EC00867EED /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DE3BC6D722588B0600867EED /* RegexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegexTest.swift; path = SwiftCodesTests/swift/text/RegexTest.swift; sourceTree = SOURCE_ROOT; };
 		DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonFormat.swift; sourceTree = "<group>"; };
@@ -799,6 +804,7 @@
 				DEE5EFA825DE6A80003AF5C8 /* MoveZeroesInArray.swift */,
 				DEEB9A51260405A20007DA8A /* PerfectNumber.swift */,
 				DE578EB22423406E00610E9C /* ProductSumDifference.swift */,
+				DE26B59F26B9EA360065C22C /* RandomNumber.swift */,
 				DE05EB3D25C6AF5200D4C558 /* RankTransformArray.swift */,
 				DEE865C625DCF9690043B338 /* RelativeSortArray.swift */,
 				DE014D8F2298F50D00578BB1 /* RepeatTwoNArray.swift */,
@@ -826,6 +832,7 @@
 				DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */,
 				DEE5EFB225DE6BCC003AF5C8 /* MoveZeroesInArrayTest.swift */,
 				DE578EB52423421200610E9C /* ProductSumDifferenceTest.swift */,
+				DE26B5A326B9EAB40065C22C /* RandomNumberTest.swift */,
 				DE05EB4525C6B03E00D4C558 /* RankTransformArrayTest.swift */,
 				DEE865CE25DCFC360043B338 /* RelativeSortArrayTest.swift */,
 				DE014D932298F57000578BB1 /* RepeatTwoNArrayTest.swift */,
@@ -1175,6 +1182,7 @@
 				DE5F6EED22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */,
 				DEEEDD81263B5E44005B574B /* RansomNotes.swift in Sources */,
 				DED0A08F25DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */,
+				DE26B5A026B9EA360065C22C /* RandomNumber.swift in Sources */,
 				DE900580222B900E00458081 /* AirportRoute.swift in Sources */,
 				DEA79A122296861400468823 /* NumberToBinary.swift in Sources */,
 				DE1D6B02229D2C5C0084183F /* Phone.swift in Sources */,
@@ -1305,6 +1313,7 @@
 				DE5F6F1C22EC0DEE005DF8D0 /* CharacterExpansion.swift in Sources */,
 				DE06035825CAAEE60080F02E /* UnivaluedBinaryTree.swift in Sources */,
 				DE06038A25CC1A2B0080F02E /* ThreeColorSortingTest.swift in Sources */,
+				DE26B5A126B9EA360065C22C /* RandomNumber.swift in Sources */,
 				DE00795A223E09D100E7ACAA /* AllPaths.swift in Sources */,
 				DE8204592305453800A2B3C8 /* MappingTransformTest.swift in Sources */,
 				DE014D842298E43900578BB1 /* NumberOfJewelsInStones.swift in Sources */,
@@ -1313,6 +1322,7 @@
 				DEEB9A53260405A20007DA8A /* PerfectNumber.swift in Sources */,
 				DE6698A425EF8A5500A53AB9 /* RestoreString.swift in Sources */,
 				DEE0D39E26A5500F0084D8CB /* ArrayManipulations.swift in Sources */,
+				DE26B5A426B9EAB40065C22C /* RandomNumberTest.swift in Sources */,
 				DE014D942298F57000578BB1 /* RepeatTwoNArrayTest.swift in Sources */,
 				DE412FD723EAC067001EE75C /* HttpJsonExampleTest.swift in Sources */,
 				DE1D6AF3229D09120084183F /* SortByMemberTest.swift in Sources */,
