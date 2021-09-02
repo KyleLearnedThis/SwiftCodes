@@ -32,7 +32,6 @@ class LongestCommonPrefix {
             for j in 0 ..< input.count - 1  {
                 let s1 = Array(input[j])
                 let s2 = Array(input[j+1])
-
                 if s1[i] != s2[i] {
                     let r1 = s1.index(s1.startIndex, offsetBy: i)
                     let sub = String(s1[s1.startIndex..<r1])
@@ -40,7 +39,6 @@ class LongestCommonPrefix {
                 }
             }
         }
-
         let result = input[0]
         let r2 = result.index(result.startIndex, offsetBy: min)
         return String(result[result.startIndex..<r2])

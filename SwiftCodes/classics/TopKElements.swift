@@ -14,15 +14,7 @@ class TopKElements {
             let value = map[i, default: 0] + 1
             map[i] = value
         }
-        let sortedMap = map.sorted { $0.1 > $1.1 }
-        var n = 0
-        for (_, value) in sortedMap {
-            if n == k - 1 {
-                return value
-            } else {
-                n = n + 1
-            }
-        }
-        return -1
+        let entries: Array<(key: Int, value: Int)> = map.sorted { $0.1 > $1.1 }
+        return entries[k - 1].value
     }
 }

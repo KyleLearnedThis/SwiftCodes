@@ -10,11 +10,8 @@ import Foundation
 class StringPractices {
     static func reverse01(_ input: String) -> String {
         var result = ""
-        let n = Array(input)
-        for i in (0...(n.count - 1)).reversed() {
-            let ch = n[i]
-            print("\(ch)", terminator: " ")
-            result.append(ch)
+        Array(input).forEach { ch in
+            result.insert(ch, at: result.startIndex)
         }
         return result
     }
