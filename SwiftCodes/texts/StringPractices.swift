@@ -44,4 +44,20 @@ class StringPractices {
         let result = String(sub)
         return result
     }
+
+    // https://leetcode.com/problems/rotate-string/
+    static func rotateString(_ s: String, _ goal: String) -> Bool {
+        let source = Array(s)
+
+        for i in source.indices {
+            let pivot = source.index(source.startIndex, offsetBy: i+1)
+            let left = String(source[0 ..< pivot])
+            let right = String(source[pivot...])
+            let word = right + left
+            if word == goal {
+                return true
+            }
+        }
+        return false
+    }
 }
