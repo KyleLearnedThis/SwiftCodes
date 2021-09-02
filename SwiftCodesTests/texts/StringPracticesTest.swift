@@ -39,4 +39,20 @@ class StringPracticesTest: XCTestCase {
         let actual = StringPractices.removeOutermostParentheses(input)
         XCTAssertEqual(actual, expected)
     }
+
+    func testRotation01() {
+        let input = "HELLO"
+        let goal = "ELLOH"
+        let expected = true
+        let actual = StringPractices.rotateString(input, goal)
+        XCTAssertEqual(actual, expected)
+    }
+
+    func testRotation02() {
+        let input = "HELLO"
+        let goal = "OHELL"
+        let expected = true
+        let actual = StringPractices.rotateString(input, goal)
+        XCTAssertEqual(actual, expected)
+    }
 }
