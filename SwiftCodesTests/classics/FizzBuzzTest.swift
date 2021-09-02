@@ -11,17 +11,15 @@ import XCTest
 class FizzBuzzTest: XCTestCase {
     var fizz = FizzBuzz()
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testBasic() {
+        let actual = fizz.fizzBuzzV1(number: 15)
+        let expected = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
+        assert(actual.elementsEqual(expected))
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testFizzBuzz() {
-        let actual = fizz.doFizzBuzz(number: 5)
-        let expected = ["1", "2", "Fizz", "4", "Buzz"]
+    func testBasicV2() {
+        let actual = fizz.fizzBuzzV2(number: 15)
+        let expected = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
         assert(actual.elementsEqual(expected))
     }
 }
