@@ -211,6 +211,9 @@
 		DEEEDD81263B5E44005B574B /* RansomNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEDD80263B5E44005B574B /* RansomNotes.swift */; };
 		DEEEDD82263B5E44005B574B /* RansomNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEDD80263B5E44005B574B /* RansomNotes.swift */; };
 		DEEEDD8C263D4D56005B574B /* RansomNotesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEDD8B263D4D56005B574B /* RansomNotesTest.swift */; };
+		DEF2422F26E20E4100EC520E /* LargestMissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2422E26E20E4100EC520E /* LargestMissingNumber.swift */; };
+		DEF2423226E20EBB00EC520E /* LargestMissingNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2423126E20EBB00EC520E /* LargestMissingNumberTest.swift */; };
+		DEF2423326E20EF700EC520E /* LargestMissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2422E26E20E4100EC520E /* LargestMissingNumber.swift */; };
 		DEF6BDE425C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */; };
 		DEF6BDE525C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */; };
 		DEF6BDEB25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BDEA25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift */; };
@@ -407,6 +410,8 @@
 		DEEB9A58260408C00007DA8A /* PerfectNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectNumberTest.swift; sourceTree = "<group>"; };
 		DEEEDD80263B5E44005B574B /* RansomNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNotes.swift; sourceTree = "<group>"; };
 		DEEEDD8B263D4D56005B574B /* RansomNotesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNotesTest.swift; sourceTree = "<group>"; };
+		DEF2422E26E20E4100EC520E /* LargestMissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestMissingNumber.swift; sourceTree = "<group>"; };
+		DEF2423126E20EBB00EC520E /* LargestMissingNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestMissingNumberTest.swift; sourceTree = "<group>"; };
 		DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealth.swift; sourceTree = "<group>"; };
 		DEF6BDEA25C7F70A004ACDF5 /* RichestCustomerWealthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomerWealthTest.swift; sourceTree = "<group>"; };
 		DEF6BDF425C7F913004ACDF5 /* StringArraysEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringArraysEquivalent.swift; sourceTree = "<group>"; };
@@ -798,6 +803,7 @@
 				DE5F6EFC22E994CA005DF8D0 /* DuplicateZeros.swift */,
 				DE578EAD24233E4E00610E9C /* EvenNumberDigits.swift */,
 				DE5F6F0C22EAA14C005DF8D0 /* HeightChecker.swift */,
+				DEF2422E26E20E4100EC520E /* LargestMissingNumber.swift */,
 				DE5F6EEC22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift */,
 				DE570054229C96C30053F21A /* MergeSortedArray.swift */,
 				DE017EA625C6C2110019F718 /* MoneyInLeetcodeBank.swift */,
@@ -827,6 +833,7 @@
 				DE5F6F0022E99517005DF8D0 /* DuplicateZerosTest.swift */,
 				DE578EB024233EB600610E9C /* EvenNumberDigitsTest.swift */,
 				DE5F6F1022EAA1FB005DF8D0 /* HeightCheckerTest.swift */,
+				DEF2423126E20EBB00EC520E /* LargestMissingNumberTest.swift */,
 				DE5F6EF022E800E7005DF8D0 /* MedianOfTwoSortedArraysTest.swift */,
 				DE570057229C9A7B0053F21A /* MergeSortedArrayTest.swift */,
 				DE017EAC25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift */,
@@ -1187,6 +1194,7 @@
 				DEA79A122296861400468823 /* NumberToBinary.swift in Sources */,
 				DE1D6B02229D2C5C0084183F /* Phone.swift in Sources */,
 				DE014DA122990B6200578BB1 /* ValidParentheses.swift in Sources */,
+				DEF2422F26E20E4100EC520E /* LargestMissingNumber.swift in Sources */,
 				DE412FD123EABF4E001EE75C /* HttpJsonFormat.swift in Sources */,
 				DEF6BDE425C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */,
 				DEC725D4260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */,
@@ -1292,6 +1300,7 @@
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
 				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
 				DEB4ED9C2396603000129DBF /* RxSwiftExamplesTest.swift in Sources */,
+				DEF2423226E20EBB00EC520E /* LargestMissingNumberTest.swift in Sources */,
 				DE578EB62423421300610E9C /* ProductSumDifferenceTest.swift in Sources */,
 				DE1D6B00229D2C270084183F /* Dog.swift in Sources */,
 				DEE865CF25DCFC360043B338 /* RelativeSortArrayTest.swift in Sources */,
@@ -1362,6 +1371,7 @@
 				DE51592C26A77A0D002AD55F /* CountNegativeMatrixTest.swift in Sources */,
 				DE5F6EFE22E994CA005DF8D0 /* DuplicateZeros.swift in Sources */,
 				DE6698AB25EF8ACA00A53AB9 /* RestoreStringTest.swift in Sources */,
+				DEF2423326E20EF700EC520E /* LargestMissingNumber.swift in Sources */,
 				DE06035D25CAB3B90080F02E /* UnivaluedBinaryTreeTest.swift in Sources */,
 				DED02A9524A1EE52009679E1 /* ComputeClosure.swift in Sources */,
 				DEF6BDE525C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */,
