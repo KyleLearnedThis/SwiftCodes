@@ -55,4 +55,11 @@ class StringPracticesTest: XCTestCase {
         let actual = StringPractices.rotateString(input, goal)
         XCTAssertEqual(actual, expected)
     }
+
+    func testRemovelDuplicateCharacters() {
+        let input = "zvvvvoo"
+        let expected = "zvo"
+        let actual = StringPractices.removeDuplicates(input)
+        XCTAssertEqual(expected, actual)
+    }
 }

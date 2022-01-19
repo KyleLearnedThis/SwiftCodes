@@ -9,9 +9,8 @@ import Foundation
 
 class EvenNumberDigits {
     static func findNumbers(_ nums: [Int]) -> Int {
-        let sum = nums.filter{Array(String($0))
-            .count % 2 == 0}
-            .map{_ in return 1}
+        let sum = nums.filter{ Array(String($0)).count % 2 == 0 }
+            .map{ _ in return 1 }
             .reduce(0,+)
         return sum
     }
