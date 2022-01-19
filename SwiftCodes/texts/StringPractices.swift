@@ -60,4 +60,19 @@ class StringPractices {
         }
         return false
     }
+
+    // https://practice.geeksforgeeks.org/problems/remove-duplicates3034/1
+    static func removeDuplicates(_ s: String) -> String {
+        let chars = Array(s)
+        var set = Set<Character>()
+        var store = [String]()
+        for ch in chars {
+            if !set.contains(ch) {
+                set.insert(ch)
+                store.append(String(ch))
+            }
+        }
+        let result = store.joined()
+        return result
+    }
 }
