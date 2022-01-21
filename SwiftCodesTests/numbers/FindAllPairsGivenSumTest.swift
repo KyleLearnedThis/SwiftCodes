@@ -15,7 +15,17 @@ class FindAllPairsGivenSumTest: XCTestCase {
         let b = [5, 6, 3, 4, 8]
         let n = 9
         let o = [[1,8],[4,5],[5,4]]
-        findAllPairsWork(a,b,n,o)
+        let actual = FindAllPairsGivenSum.allPairs(a,b,n)
+        findAllPairsWork(a,b,n,o,actual)
+    }
+
+    func testBasicV2() throws {
+        let a = [1, 2, 4, 5, 7]
+        let b = [5, 6, 3, 4, 8]
+        let n = 9
+        let o = [[1,8],[4,5],[5,4]]
+        let actual = FindAllPairsGivenSum.allPairsV2(a,b,n)
+        findAllPairsWork(a,b,n,o,actual)
     }
 
     func testNegativeNumbers() throws {
@@ -23,12 +33,21 @@ class FindAllPairsGivenSumTest: XCTestCase {
         let b = [6, 3, 4, 0]
         let n = 8
         let o = [[4,4],[5,3]]
-        findAllPairsWork(a,b,n,o)
+        let actual = FindAllPairsGivenSum.allPairs(a,b,n)
+        findAllPairsWork(a,b,n,o,actual)
     }
 
-    private func findAllPairsWork(_ a: [Int], _ b: [Int], _ n: Int, _ o: [[Int]]) {
+    func testNegativeNumbersV2() throws {
+        let a = [-1, -2, 4, -6, 5, 7]
+        let b = [6, 3, 4, 0]
+        let n = 8
+        let o = [[4,4],[5,3]]
+        let actual = FindAllPairsGivenSum.allPairsV2(a,b,n)
+        findAllPairsWork(a,b,n,o,actual)
+    }
+
+    private func findAllPairsWork(_ a: [Int], _ b: [Int], _ n: Int, _ o: [[Int]], _ actual: [(l: Int, r: Int)] ) {
         let expected = generateExpectedArray(array: o)
-        let actual = FindAllPairsGivenSum.allPairs(a,b,n)
         XCTAssertTrue(expected.count == actual.count)
         for i in expected.indices {
             let ex = expected[i]
