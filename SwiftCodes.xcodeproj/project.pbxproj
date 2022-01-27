@@ -147,6 +147,9 @@
 		DE848E532799720A00F99E59 /* FindAllPairsGivenSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E522799720A00F99E59 /* FindAllPairsGivenSum.swift */; };
 		DE848E542799720A00F99E59 /* FindAllPairsGivenSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E522799720A00F99E59 /* FindAllPairsGivenSum.swift */; };
 		DE848E572799729400F99E59 /* FindAllPairsGivenSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E562799729400F99E59 /* FindAllPairsGivenSumTest.swift */; };
+		DE848E5B27A0A5BA00F99E59 /* SumOfTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E5A27A0A5BA00F99E59 /* SumOfTwoLists.swift */; };
+		DE848E5C27A0A5BA00F99E59 /* SumOfTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E5A27A0A5BA00F99E59 /* SumOfTwoLists.swift */; };
+		DE848E5F27A297D900F99E59 /* SumOfTwoListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E5E27A297D900F99E59 /* SumOfTwoListsTest.swift */; };
 		DE90055B222B8E5600458081 /* SwiftCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE900551222B8E5600458081 /* SwiftCodes.framework */; };
 		DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90055F222B8E5600458081 /* SwiftCodesTests.swift */; };
 		DE900562222B8E5600458081 /* SwiftCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = DE900554222B8E5600458081 /* SwiftCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -372,6 +375,8 @@
 		DE82045B23065A7600A2B3C8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		DE848E522799720A00F99E59 /* FindAllPairsGivenSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllPairsGivenSum.swift; sourceTree = "<group>"; };
 		DE848E562799729400F99E59 /* FindAllPairsGivenSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllPairsGivenSumTest.swift; sourceTree = "<group>"; };
+		DE848E5A27A0A5BA00F99E59 /* SumOfTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoLists.swift; sourceTree = "<group>"; };
+		DE848E5E27A297D900F99E59 /* SumOfTwoListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoListsTest.swift; sourceTree = "<group>"; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE900554222B8E5600458081 /* SwiftCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCodes.h; sourceTree = "<group>"; };
 		DE900555222B8E5600458081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -524,6 +529,7 @@
 			children = (
 				DE26B59826B9E3A00065C22C /* DetectCyclicList.swift */,
 				DE014DBC229A157900578BB1 /* ListReverse.swift */,
+				DE848E5A27A0A5BA00F99E59 /* SumOfTwoLists.swift */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -533,6 +539,7 @@
 			children = (
 				DE26B59B26B9E4E20065C22C /* DetectCyclicListTest.swift */,
 				DE014DC0229A1AAA00578BB1 /* ListReverseTest.swift */,
+				DE848E5E27A297D900F99E59 /* SumOfTwoListsTest.swift */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -1258,6 +1265,7 @@
 				DEFCBBD4223E1A0D00CBBAC6 /* HeightBalancedTree.swift in Sources */,
 				DE014D7722979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE900591222BA8E500458081 /* Fibonacci.swift in Sources */,
+				DE848E5B27A0A5BA00F99E59 /* SumOfTwoLists.swift in Sources */,
 				DEB12CC12695A1EA00421353 /* BusyStudent.swift in Sources */,
 				DE06035725CAAEE60080F02E /* UnivaluedBinaryTree.swift in Sources */,
 				DE26B58D26B4BC280065C22C /* Anagram.swift in Sources */,
@@ -1310,6 +1318,7 @@
 				DEE5EFAA25DE6A80003AF5C8 /* MoveZeroesInArray.swift in Sources */,
 				DE5F6F1E22EC1289005DF8D0 /* CharacterExpansionTest.swift in Sources */,
 				DE412FD223EABF4E001EE75C /* HttpJsonFormat.swift in Sources */,
+				DE848E5F27A297D900F99E59 /* SumOfTwoListsTest.swift in Sources */,
 				DE565C9B23EA94C100423707 /* HttpClientExample.swift in Sources */,
 				DE5CEB4623ED34FB008C60CC /* EnvironmentFetchTest.swift in Sources */,
 				DE014DA422990D9600578BB1 /* ValidParenthesesTest.swift in Sources */,
@@ -1406,6 +1415,7 @@
 				DEF6BDE525C7F640004ACDF5 /* RichestCustomerWealth.swift in Sources */,
 				DE5F6F1122EAA1FB005DF8D0 /* HeightCheckerTest.swift in Sources */,
 				DE014D912298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
+				DE848E5C27A0A5BA00F99E59 /* SumOfTwoLists.swift in Sources */,
 				DE1D6B06229D2C8F0084183F /* Cat.swift in Sources */,
 				DE74E189230A871400C2A53E /* Pair.swift in Sources */,
 				DE06039525CD257B0080F02E /* BSTKthElement.swift in Sources */,
