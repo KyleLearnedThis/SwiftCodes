@@ -150,6 +150,9 @@
 		DE848E5B27A0A5BA00F99E59 /* SumOfTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E5A27A0A5BA00F99E59 /* SumOfTwoLists.swift */; };
 		DE848E5C27A0A5BA00F99E59 /* SumOfTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E5A27A0A5BA00F99E59 /* SumOfTwoLists.swift */; };
 		DE848E5F27A297D900F99E59 /* SumOfTwoListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E5E27A297D900F99E59 /* SumOfTwoListsTest.swift */; };
+		DE848E6327A8B43600F99E59 /* DaysOfYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E6227A8B43500F99E59 /* DaysOfYear.swift */; };
+		DE848E6627A8B67500F99E59 /* DaysOfYearTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E6527A8B67500F99E59 /* DaysOfYearTest.swift */; };
+		DE848E6727A8B6CF00F99E59 /* DaysOfYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE848E6227A8B43500F99E59 /* DaysOfYear.swift */; };
 		DE90055B222B8E5600458081 /* SwiftCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE900551222B8E5600458081 /* SwiftCodes.framework */; };
 		DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE90055F222B8E5600458081 /* SwiftCodesTests.swift */; };
 		DE900562222B8E5600458081 /* SwiftCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = DE900554222B8E5600458081 /* SwiftCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -377,6 +380,8 @@
 		DE848E562799729400F99E59 /* FindAllPairsGivenSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllPairsGivenSumTest.swift; sourceTree = "<group>"; };
 		DE848E5A27A0A5BA00F99E59 /* SumOfTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoLists.swift; sourceTree = "<group>"; };
 		DE848E5E27A297D900F99E59 /* SumOfTwoListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoListsTest.swift; sourceTree = "<group>"; };
+		DE848E6227A8B43500F99E59 /* DaysOfYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfYear.swift; sourceTree = "<group>"; };
+		DE848E6527A8B67500F99E59 /* DaysOfYearTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfYearTest.swift; sourceTree = "<group>"; };
 		DE900551222B8E5600458081 /* SwiftCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE900554222B8E5600458081 /* SwiftCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCodes.h; sourceTree = "<group>"; };
 		DE900555222B8E5600458081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -823,6 +828,7 @@
 				DED0A07825DA782D007A42B3 /* BinarySearchArray.swift */,
 				DEB12CC02695A1EA00421353 /* BusyStudent.swift */,
 				DE014D7622979E9900578BB1 /* DailyTemperatures.swift */,
+				DE848E6227A8B43500F99E59 /* DaysOfYear.swift */,
 				DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */,
 				DE5F6EFC22E994CA005DF8D0 /* DuplicateZeros.swift */,
 				DE578EAD24233E4E00610E9C /* EvenNumberDigits.swift */,
@@ -855,6 +861,7 @@
 				DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */,
 				DEB12CC42695A23700421353 /* BusyStudentTest.swift */,
 				DE014D792297A1C700578BB1 /* DailyTemperaturesTest.swift */,
+				DE848E6527A8B67500F99E59 /* DaysOfYearTest.swift */,
 				DED0A06E25DA6C17007A42B3 /* DuplicateNumberTest.swift */,
 				DE5F6F0022E99517005DF8D0 /* DuplicateZerosTest.swift */,
 				DE578EB024233EB600610E9C /* EvenNumberDigitsTest.swift */,
@@ -1236,6 +1243,7 @@
 				DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */,
 				DE900581222B900E00458081 /* FizzBuzz.swift in Sources */,
 				DEA79A082296497500468823 /* SingleNumber.swift in Sources */,
+				DE848E6327A8B43600F99E59 /* DaysOfYear.swift in Sources */,
 				DE14F8F525C94A740048DA2E /* MergeTwoBST.swift in Sources */,
 				DE82045C23065A7600A2B3C8 /* Person.swift in Sources */,
 				DE5F6F1B22EC0DEE005DF8D0 /* CharacterExpansion.swift in Sources */,
@@ -1305,6 +1313,7 @@
 				DEDEE1D425C18D4A00C1E041 /* RunningSumArrayTest.swift in Sources */,
 				DE26B58E26B4BC280065C22C /* Anagram.swift in Sources */,
 				DE5F6F0922EA93F5005DF8D0 /* ReverseOnlyLettersTest.swift in Sources */,
+				DE848E6727A8B6CF00F99E59 /* DaysOfYear.swift in Sources */,
 				DEFCBBD8223E1A2D00CBBAC6 /* HeightBalancedTreeTest.swift in Sources */,
 				DE06038325CC14E00080F02E /* ThreeColorSorting.swift in Sources */,
 				DE900560222B8E5600458081 /* SwiftCodesTests.swift in Sources */,
@@ -1374,6 +1383,7 @@
 				DE1D6AF3229D09120084183F /* SortByMemberTest.swift in Sources */,
 				DE578EB42423406E00610E9C /* ProductSumDifference.swift in Sources */,
 				DE014D7A2297A1C700578BB1 /* DailyTemperaturesTest.swift in Sources */,
+				DE848E6627A8B67500F99E59 /* DaysOfYearTest.swift in Sources */,
 				DEEEDD82263B5E44005B574B /* RansomNotes.swift in Sources */,
 				DE014D992298F6A400578BB1 /* TopKElements.swift in Sources */,
 				DEAC4D0727560674002168A4 /* LeadersInArrayTest.swift in Sources */,
