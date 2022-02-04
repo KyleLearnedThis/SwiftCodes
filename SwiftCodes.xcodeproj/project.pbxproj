@@ -95,6 +95,9 @@
 		DE412FD423EABF6E001EE75C /* HttpJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */; };
 		DE412FD523EABF6E001EE75C /* HttpJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */; };
 		DE412FD723EAC067001EE75C /* HttpJsonExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE412FD623EAC067001EE75C /* HttpJsonExampleTest.swift */; };
+		DE49EA6627ADE7A700783980 /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49EA6527ADE7A700783980 /* BalanceBST.swift */; };
+		DE49EA6727ADE7A700783980 /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49EA6527ADE7A700783980 /* BalanceBST.swift */; };
+		DE49EA6A27ADE9CE00783980 /* BalanceBSTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49EA6927ADE9CE00783980 /* BalanceBSTTest.swift */; };
 		DE51592826A77930002AD55F /* CountNegativeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51592726A77930002AD55F /* CountNegativeMatrix.swift */; };
 		DE51592926A77930002AD55F /* CountNegativeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51592726A77930002AD55F /* CountNegativeMatrix.swift */; };
 		DE51592C26A77A0D002AD55F /* CountNegativeMatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51592B26A77A0D002AD55F /* CountNegativeMatrixTest.swift */; };
@@ -344,6 +347,8 @@
 		DE412FD023EABF4E001EE75C /* HttpJsonFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonFormat.swift; sourceTree = "<group>"; };
 		DE412FD323EABF6E001EE75C /* HttpJsonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonExample.swift; sourceTree = "<group>"; };
 		DE412FD623EAC067001EE75C /* HttpJsonExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpJsonExampleTest.swift; sourceTree = "<group>"; };
+		DE49EA6527ADE7A700783980 /* BalanceBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBST.swift; sourceTree = "<group>"; };
+		DE49EA6927ADE9CE00783980 /* BalanceBSTTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBSTTest.swift; sourceTree = "<group>"; };
 		DE51592726A77930002AD55F /* CountNegativeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNegativeMatrix.swift; sourceTree = "<group>"; };
 		DE51592B26A77A0D002AD55F /* CountNegativeMatrixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountNegativeMatrixTest.swift; path = SwiftCodesTests/collections/CountNegativeMatrixTest.swift; sourceTree = SOURCE_ROOT; };
 		DE565C9923EA94C100423707 /* HttpClientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientExample.swift; sourceTree = "<group>"; };
@@ -989,6 +994,7 @@
 			isa = PBXGroup;
 			children = (
 				DE007958223E09D100E7ACAA /* AllPaths.swift */,
+				DE49EA6527ADE7A700783980 /* BalanceBST.swift */,
 				DEFCBBE3223F5FF600CBBAC6 /* BSTInversion.swift */,
 				DE06039325CD257B0080F02E /* BSTKthElement.swift */,
 				DEFCBBDB223F5D4500CBBAC6 /* BSTMaxHeight.swift */,
@@ -1004,6 +1010,7 @@
 			isa = PBXGroup;
 			children = (
 				DE00795C223E0A3400E7ACAA /* AllPathsTest.swift */,
+				DE49EA6927ADE9CE00783980 /* BalanceBSTTest.swift */,
 				DEFCBBE9223F623400CBBAC6 /* BSTInversionTest.swift */,
 				DE0603A125CD289B0080F02E /* BSTKthElementTest.swift */,
 				DEFCBBDF223F5D6700CBBAC6 /* BSTMaxHeightTest.swift */,
@@ -1285,6 +1292,7 @@
 				DEE5EFA925DE6A80003AF5C8 /* MoveZeroesInArray.swift in Sources */,
 				DED0A10225DC73BE007A42B3 /* DestinationCity.swift in Sources */,
 				DE1D6ADE229CF2810084183F /* OrderedDictionaryExample.swift in Sources */,
+				DE49EA6627ADE7A700783980 /* BalanceBST.swift in Sources */,
 				DE014DC9229A3B3200578BB1 /* ExtractNumberSum.swift in Sources */,
 				DE014D982298F6A400578BB1 /* TopKElements.swift in Sources */,
 				DE06038225CC14E00080F02E /* ThreeColorSorting.swift in Sources */,
@@ -1390,6 +1398,7 @@
 				DE900592222BA8E500458081 /* Fibonacci.swift in Sources */,
 				DEC725D5260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */,
 				DEE0D3A626A558450084D8CB /* TruncateSentenceTest.swift in Sources */,
+				DE49EA6727ADE7A700783980 /* BalanceBST.swift in Sources */,
 				DEFCBC012241A3DF00CBBAC6 /* FileOpenerTest.swift in Sources */,
 				DE90057E222B900D00458081 /* AirportRoute.swift in Sources */,
 				DE9ED2B5229C619A00C3D72B /* StringPracticesTest.swift in Sources */,
@@ -1438,6 +1447,7 @@
 				DEE0D3A126A551D70084D8CB /* ArrayManipulationsTest.swift in Sources */,
 				DE014D7822979E9900578BB1 /* DailyTemperatures.swift in Sources */,
 				DE014DCD229A3B8100578BB1 /* ExtractNumberSumTest.swift in Sources */,
+				DE49EA6A27ADE9CE00783980 /* BalanceBSTTest.swift in Sources */,
 				DE014DB422993BC600578BB1 /* BSTPathSum.swift in Sources */,
 				DE1D6ADF229CF2810084183F /* OrderedDictionaryExample.swift in Sources */,
 				DEE0D3A426A557FE0084D8CB /* TruncateSentence.swift in Sources */,
