@@ -15,4 +15,11 @@ class PalindromeTest: XCTestCase {
         let actual = Palindrome.isPalindrome(input)
         XCTAssertEqual(expected, actual)
     }
+
+    func testBasicV2() throws {
+        let input = "A man, a plan, a canal: Panama"
+        let expected = true
+        let actual = Palindrome.isPalindromeV2(input)
+        XCTAssertEqual(expected, actual)
+    }
 }
