@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -198,13 +198,12 @@
 		DEB12CC12695A1EA00421353 /* BusyStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12CC02695A1EA00421353 /* BusyStudent.swift */; };
 		DEB12CC22695A1EA00421353 /* BusyStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12CC02695A1EA00421353 /* BusyStudent.swift */; };
 		DEB12CC52695A23700421353 /* BusyStudentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12CC42695A23700421353 /* BusyStudentTest.swift */; };
-		DEB4ED9123965CA600129DBF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DEB4ED9023965CA600129DBF /* RxSwift */; };
-		DEB4ED9823965D4800129DBF /* RxSwiftExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */; };
-		DEB4ED9923965D4800129DBF /* RxSwiftExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */; };
-		DEB4ED9C2396603000129DBF /* RxSwiftExamplesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4ED9B2396603000129DBF /* RxSwiftExamplesTest.swift */; };
 		DEC725D4260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */; };
 		DEC725D5260B3E960024FC86 /* ArrayLuckyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */; };
 		DEC725DA260B407C0024FC86 /* ArrayLuckyNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC725D9260B407C0024FC86 /* ArrayLuckyNumberTest.swift */; };
+		DEC9010927FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9010827FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift */; };
+		DEC9010A27FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9010827FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift */; };
+		DEC9010D27FCF0BF00E7AEAB /* SmallerThanCurrentNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9010C27FCF0BF00E7AEAB /* SmallerThanCurrentNumberTest.swift */; };
 		DED02A9424A1EE4A009679E1 /* ComputeClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */; };
 		DED02A9524A1EE52009679E1 /* ComputeClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */; };
 		DED02A9724A1F04A009679E1 /* ComputeClosureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02A9624A1F04A009679E1 /* ComputeClosureTest.swift */; };
@@ -432,10 +431,10 @@
 		DEAC4D0627560674002168A4 /* LeadersInArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadersInArrayTest.swift; sourceTree = "<group>"; };
 		DEB12CC02695A1EA00421353 /* BusyStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyStudent.swift; sourceTree = "<group>"; };
 		DEB12CC42695A23700421353 /* BusyStudentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyStudentTest.swift; sourceTree = "<group>"; };
-		DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExamples.swift; sourceTree = "<group>"; };
-		DEB4ED9B2396603000129DBF /* RxSwiftExamplesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RxSwiftExamplesTest.swift; path = SwiftCodesTests/reactivex/RxSwiftExamplesTest.swift; sourceTree = SOURCE_ROOT; };
 		DEC725D3260B3E960024FC86 /* ArrayLuckyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayLuckyNumber.swift; sourceTree = "<group>"; };
 		DEC725D9260B407C0024FC86 /* ArrayLuckyNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayLuckyNumberTest.swift; sourceTree = "<group>"; };
+		DEC9010827FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerThanCurrentNumber.swift; sourceTree = "<group>"; };
+		DEC9010C27FCF0BF00E7AEAB /* SmallerThanCurrentNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerThanCurrentNumberTest.swift; sourceTree = "<group>"; };
 		DED02A9324A1EE4A009679E1 /* ComputeClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeClosure.swift; sourceTree = "<group>"; };
 		DED02A9624A1F04A009679E1 /* ComputeClosureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeClosureTest.swift; sourceTree = "<group>"; };
 		DED0A06825DA6B95007A42B3 /* DuplicateNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateNumber.swift; sourceTree = "<group>"; };
@@ -487,7 +486,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB4ED9123965CA600129DBF /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,7 +764,6 @@
 				DE014DBA229A154A00578BB1 /* list */,
 				DEFCBBFB2241A22300CBBAC6 /* swift */,
 				DEA79A042296493600468823 /* numbers */,
-				DEB4ED9323965CEA00129DBF /* reactivex */,
 				DE014D7D2298DF7B00578BB1 /* texts */,
 				DE007956223E09B000E7ACAA /* tree */,
 				DE900554222B8E5600458081 /* SwiftCodes.h */,
@@ -786,7 +783,6 @@
 				DE014DBF229A158000578BB1 /* list */,
 				DEA79A062296493E00468823 /* numbers */,
 				DEFCBBFF2241A3B400CBBAC6 /* swift */,
-				DEB4ED9A23965D5300129DBF /* reactivex */,
 				DE014D7F2298DF8A00578BB1 /* texts */,
 				DE00795B223E0A0600E7ACAA /* tree */,
 				DE90055F222B8E5600458081 /* SwiftCodesTests.swift */,
@@ -881,6 +877,7 @@
 				DEF6BDE325C7F640004ACDF5 /* RichestCustomerWealth.swift */,
 				DEDEE1C525C18C7400C1E041 /* RunningSumArray.swift */,
 				DEA79A072296497500468823 /* SingleNumber.swift */,
+				DEC9010827FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -888,6 +885,7 @@
 		DEA79A062296493E00468823 /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DEC9010C27FCF0BF00E7AEAB /* SmallerThanCurrentNumberTest.swift */,
 				DEC725D9260B407C0024FC86 /* ArrayLuckyNumberTest.swift */,
 				DEEB9A58260408C00007DA8A /* PerfectNumberTest.swift */,
 				DED0A08425DA7A58007A42B3 /* BinarySearchArrayTest.swift */,
@@ -948,22 +946,6 @@
 				DEAAF11523F3F5CE00537D56 /* BasicCombineExampleTest.swift */,
 			);
 			path = combine;
-			sourceTree = "<group>";
-		};
-		DEB4ED9323965CEA00129DBF /* reactivex */ = {
-			isa = PBXGroup;
-			children = (
-				DEB4ED9723965D4800129DBF /* RxSwiftExamples.swift */,
-			);
-			path = reactivex;
-			sourceTree = "<group>";
-		};
-		DEB4ED9A23965D5300129DBF /* reactivex */ = {
-			isa = PBXGroup;
-			children = (
-				DEB4ED9B2396603000129DBF /* RxSwiftExamplesTest.swift */,
-			);
-			path = reactivex;
 			sourceTree = "<group>";
 		};
 		DED02A9124A1EE08009679E1 /* closures */ = {
@@ -1125,7 +1107,6 @@
 			);
 			name = SwiftCodes;
 			packageProductDependencies = (
-				DEB4ED9023965CA600129DBF /* RxSwift */,
 			);
 			productName = SwiftCodes;
 			productReference = DE900551222B8E5600458081 /* SwiftCodes.framework */;
@@ -1179,7 +1160,6 @@
 			);
 			mainGroup = DE900547222B8E5600458081;
 			packageReferences = (
-				DEB4ED8F23965CA600129DBF /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = DE900552222B8E5600458081 /* Products */;
 			projectDirPath = "";
@@ -1256,7 +1236,6 @@
 				DE0603AF25D3EED50080F02E /* StockTrading.swift in Sources */,
 				DE1D6B0A229D2DDC0084183F /* Car.swift in Sources */,
 				DE578EB32423406E00610E9C /* ProductSumDifference.swift in Sources */,
-				DEB4ED9823965D4800129DBF /* RxSwiftExamples.swift in Sources */,
 				DE5F6EED22E7FD95005DF8D0 /* MedianOfTwoSortedArrays.swift in Sources */,
 				DEEEDD81263B5E44005B574B /* RansomNotes.swift in Sources */,
 				DED0A08F25DB9FCC007A42B3 /* CharacterCaseConversion.swift in Sources */,
@@ -1304,6 +1283,7 @@
 				DE014D902298F50D00578BB1 /* RepeatTwoNArray.swift in Sources */,
 				DED0A07925DA782D007A42B3 /* BinarySearchArray.swift in Sources */,
 				DE5F6EFD22E994CA005DF8D0 /* DuplicateZeros.swift in Sources */,
+				DEC9010927FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift in Sources */,
 				DE6698A325EF8A5500A53AB9 /* RestoreString.swift in Sources */,
 				DE11743027E08A60006F1801 /* Palindrome.swift in Sources */,
 				DE74E188230A871400C2A53E /* Pair.swift in Sources */,
@@ -1375,6 +1355,7 @@
 				DE0603BB25D3F1120080F02E /* StockTradingTest.swift in Sources */,
 				DE017EAD25C6C2410019F718 /* MoneyInLeetcodeBankTest.swift in Sources */,
 				DE05EB3F25C6AF5200D4C558 /* RankTransformArray.swift in Sources */,
+				DEC9010A27FCF01D00E7AEAB /* SmallerThanCurrentNumber.swift in Sources */,
 				DEE865C825DCF9690043B338 /* RelativeSortArray.swift in Sources */,
 				DE26B59C26B9E4E20065C22C /* DetectCyclicListTest.swift in Sources */,
 				DE792504279818FD008C4CEB /* ComputeStringSumTest.swift in Sources */,
@@ -1384,7 +1365,6 @@
 				DEDEE1C725C18C7400C1E041 /* RunningSumArray.swift in Sources */,
 				DEFCBBEA223F623400CBBAC6 /* BSTInversionTest.swift in Sources */,
 				DEA79A0B229649B400468823 /* SingleNumberTest.swift in Sources */,
-				DEB4ED9C2396603000129DBF /* RxSwiftExamplesTest.swift in Sources */,
 				DEF2423226E20EBB00EC520E /* LargestMissingNumberTest.swift in Sources */,
 				DE578EB62423421300610E9C /* ProductSumDifferenceTest.swift in Sources */,
 				DE1D6B00229D2C270084183F /* Dog.swift in Sources */,
@@ -1465,6 +1445,7 @@
 				DE5F6EF622E94D53005DF8D0 /* IPDefanger.swift in Sources */,
 				DE014D832298E42C00578BB1 /* NumberOfJewelsInStonesTest.swift in Sources */,
 				DE51592C26A77A0D002AD55F /* CountNegativeMatrixTest.swift in Sources */,
+				DEC9010D27FCF0BF00E7AEAB /* SmallerThanCurrentNumberTest.swift in Sources */,
 				DE5F6EFE22E994CA005DF8D0 /* DuplicateZeros.swift in Sources */,
 				DE6698AB25EF8ACA00A53AB9 /* RestoreStringTest.swift in Sources */,
 				DEF2423326E20EF700EC520E /* LargestMissingNumber.swift in Sources */,
@@ -1498,7 +1479,6 @@
 				DED0A06A25DA6B95007A42B3 /* DuplicateNumber.swift in Sources */,
 				DE5CEB4323ED3417008C60CC /* EnvironmentFetch.swift in Sources */,
 				DEF6BDF625C7F913004ACDF5 /* StringArraysEquivalent.swift in Sources */,
-				DEB4ED9923965D4800129DBF /* RxSwiftExamples.swift in Sources */,
 				DE90057F222B900D00458081 /* FizzBuzz.swift in Sources */,
 				DE06034325C953520080F02E /* MergeTwoBSTTest.swift in Sources */,
 			);
@@ -1763,25 +1743,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		DEB4ED8F23965CA600129DBF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DEB4ED9023965CA600129DBF /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEB4ED8F23965CA600129DBF /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE900548222B8E5600458081 /* Project object */;
 }
